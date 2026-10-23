@@ -2,9 +2,9 @@
 
 Code and derived outputs for the article
 
-> S. Verma, N. K. Rajput, *Entropy Observables for Epidemic Models of Cyber
-> Lateral Movement: Identifiability, Early Warning, and Limits on Real
-> Authentication Data*, submitted to *Computer Communications*.
+> S. Verma, N. K. Rajput, *Observing Epidemic Spreading Through Traffic
+> Entropy: Detectability Limits, Early Warning and Real Lateral Movement in
+> Enterprise Networks* (manuscript under review).
 
 Every number, table and figure in the article is produced by a script in
 this repository. `REPRODUCE.md` maps each one to its script and output file.
