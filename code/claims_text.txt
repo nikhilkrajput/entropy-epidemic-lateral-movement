@@ -1,0 +1,183 @@
+ables/tab_ident.tex} Table~\ref{tab:ident} reports cross-validated accuracy. With a known seed time, $R^2(\log R_0)$ is 0.86--0.96 and the sign of $R_0 - 1$ is classified with ROC AUC 0.93--0.99. These scores are carried by large epidemics. For epide
+
+ed accuracy. With a known seed time, $R^2(\log R_0)$ is 0.86--0.96 and the sign of $R_0 - 1$ is classified with ROC AUC 0.93--0.99. These scores are carried by large epidemics. For epidemics whose peak exceeds 30\% of hosts, $R^2(\log R_0)$ is 0.81--
+
+ host-level logon simulator, windowed entropy recovers the reproduction number of large epidemics ($R^2$ for $\log R_0$ 0.81--0.93 with a known seed time, 0.66--0.89 without) but little of small ones, and calibrated early warning (one false alarm per
+
+of hosts, $R^2(\log R_0)$ is 0.81--0.93, close to the oracle's 0.99; for epidemics that never exceed 5\% of hosts it is at most 0.50, and negative in the weakest condition, although the oracle still reaches 0.92 there. The information about small epide
+
+9; for epidemics that never exceed 5\% of hosts it is at most 0.50, and negative in the weakest condition, although the oracle still reaches 0.92 there. The information about small epidemics is present in $\iota$ but is lost in the entropy observable, which is the 
+
+\ref{prop:bound} applies. The transmission rate is recovered less well than $\log R_0$ in every condition ($R^2(\beta)$ 0.66--0.94), and $\gamma$ is the hardest quantity. Part of this accuracy comes from knowing when the epidemic started. With the se
+
+s with $\beta \sim \mathcal{U}(0.05, 0.60)$ and $\gamma \sim \mathcal{U}(0.02, 0.25)$ per day ($R_0$ from 0.24 to 25.9; 81\% with $R_0 > 1$), $I_0 = 1$, 150 days, observed at 20 windows equally spaced between days 10 and 140, for $m \in \{0.5, 1, 2, 5\}$ and 
+
+ndred scenarios with $\beta \sim \mathcal{U}(0.05, 0.60)$ and $\gamma \sim \mathcal{U}(0.02, 0.25)$ per day ($R_0$ from 0.24 to 25.9; 81\% with $R_0 > 1$), $I_0 = 1$, 150 days, observed at 20 windows equally spaced between days 10 and 140, for $m \in \
+
+nitial standard deviations 0.05 and $10^{-3}$. Table~\ref{tab:ekf} compares it with the alternatives. Of 600 scenarios, 140 are unresolvable, 54 of them with $R_0 > 1$ but too slow to resolve. On the remaining 460 the retrospective read-out reaches $R^2(\beta)
+
+ions 0.05 and $10^{-3}$. Table~\ref{tab:ekf} compares it with the alternatives. Of 600 scenarios, 140 are unresolvable, 54 of them with $R_0 > 1$ but too slow to resolve. On the remaining 460 the retrospective read-out reaches $R^2(\beta) = 0.81$ and
+
+ith the alternatives. Of 600 scenarios, 140 are unresolvable, 54 of them with $R_0 > 1$ but too slow to resolve. On the remaining 460 the retrospective read-out reaches $R^2(\beta) = 0.81$ and $R^2(R_0) = 0.92$, equal to the oracle that divides the true
+
+nresolvable, 54 of them with $R_0 > 1$ but too slow to resolve. On the remaining 460 the retrospective read-out reaches $R^2(\beta) = 0.81$ and $R^2(R_0) = 0.92$, equal to the oracle that divides the true $\beta$ by the supplied $\gamma$. The equality is partly coincidental: the e
+
+amma$. The equality is partly coincidental: the error in $\hat\beta$ correlates with the error in the supplied $\gamma$ ($r = 0.48$), so the filter absorbs part of the $\gamma$ error into $\hat\beta$. The causal read-out is less accurate ($R^2(\beta) =
+
+$ ($r = 0.48$), so the filter absorbs part of the $\gamma$ error into $\hat\beta$. The causal read-out is less accurate ($R^2(\beta) = 0.67$). A batch RF on the same trace is more accurate than either, with or without the supplied $\gamma$. Over all 600 scenari
+
+curate than either, with or without the supplied $\gamma$. Over all 600 scenarios, the sign of $R_0 - 1$ is correct for 92\% (RF), 88\% (EKF, either read-out, counting unresolvable runs as sub-critical) and 83\% (majority class and prior-only). On the 347 scen
+
+sign of $R_0 - 1$ is correct for 92\% (RF), 88\% (EKF, either read-out, counting unresolvable runs as sub-critical) and 83\% (majority class and prior-only). On the 347 scenarios resolvable under every assumption, a $\pm 20\%$ error in $\eta$ or a $\pm 0
+
+(RF), 88\% (EKF, either read-out, counting unresolvable runs as sub-critical) and 83\% (majority class and prior-only). On the 347 scenarios resolvable under every assumption, a $\pm 20\%$ error in $\eta$ or a $\pm 0.1$-bit error in $H_0$ moves $R^2(\beta)$ fr
+
+ under every assumption, a $\pm 20\%$ error in $\eta$ or a $\pm 0.1$-bit error in $H_0$ moves $R^2(\beta)$ from 0.81 to between 0.72 and 0.86; an underestimated $H_0$ also makes almost every run appear resolvable (595 of 600), including runs whose $\hat\beta$ i
+
+ $R^2(\beta)$ from 0.81 to between 0.72 and 0.86; an underestimated $H_0$ also makes almost every run appear resolvable (595 of 600), including runs whose $\hat\beta$ is meaningless. Fig.~\ref{fig:ekf_track} shows one trace with $H_0$ known: with $\gam
+
+ate carries over the seed. Lead time uses the first alarm at or after the seed. Onset is the first time $\iota > 0.01$; 194 runs reach it, on average 14.2 days after the seed. Three baselines are compared: no variability, independent variability ($s_a = 
+
+d time uses the first alarm at or after the seed. Onset is the first time $\iota > 0.01$; 194 runs reach it, on average 14.2 days after the seed. Three baselines are compared: no variability, independent variability ($s_a = 0.15$) and autocorrelated variability ($
+
+n}}$. Without baseline variability the CUSUM's median alarm reaches onset at $\mathrm{SNR}_{\text{on}} \approx 0.7$ and precedes it by 5.5 days at 3.3, when every run warns early. Second, autocorrelation matters: with independent variability the CUSUM's median alarm is 
+
+un warns early. Second, autocorrelation matters: with independent variability the CUSUM's median alarm is at onset when $\mathrm{SNR}_{\text{on}} = 0.91$ ($m = 5$), but with AR(1) variability of the same size it is still 1.6 days after onset, and only a third of runs warn 
+
+n alarm is at onset when $\mathrm{SNR}_{\text{on}} = 0.91$ ($m = 5$), but with AR(1) variability of the same size it is still 1.6 days after onset, and only a third of runs warn early. Under autocorrelated baselines, even infected hosts with five times the logons of
+
+, the rate detector is the weakest throughout: its median lead is never better than the level detector's, and it misses up to 75 of 194 epidemics, because differencing amplifies noise and slowly saturating epidemics never produce a steep enough slope. Tun
+
+ epidemics never produce a steep enough slope. Tuning the CUSUM for small shifts ($k = 0.2$) changes its median lead by at most 0.9 days in any condition. Between day 20 and the seed, the detectors raise 0.006--0.011 false alarms per day, in line with thei
+
+ to 4.8\% ($m = 5$). Across 16 combinations of $m$ and infected count, the mean entropy shift the simulator produces is 34--55\% of $B_K(\varepsilon)$ and never exceeds it; in the simulator, a one-standard-deviation shift requires $\varepsilon^{*} 
+
+duces is 34--55\% of $B_K(\varepsilon)$ and never exceeds it; in the simulator, a one-standard-deviation shift requires $\varepsilon^{*} = 0.6\%$. %% =================================================================== \section{Benign Enterprise Data: LANL 2017} \la
+
+\input{tables/tab_lanl_linkage.tex} Destination-host entropy correlates with the per-window active-destination fraction ($r = 0.566$; Table~\ref{tab:lanl_linkage}, Fig.~\ref{fig:lanl_panel}b) and alone predicts it with day-blocked $R^2 = 0.32$ (linear)
+
+fraction ($r = 0.566$; Table~\ref{tab:lanl_linkage}, Fig.~\ref{fig:lanl_panel}b) and alone predicts it with day-blocked $R^2 = 0.32$ (linear); all six entropies reach a pooled 0.47 (linear) and 0.49 (Random Forest) under 10-fold day-blocked CV, and $0.17 \pm 0.
+
+age}, Fig.~\ref{fig:lanl_panel}b) and alone predicts it with day-blocked $R^2 = 0.32$ (linear); all six entropies reach a pooled 0.47 (linear) and 0.49 (Random Forest) under 10-fold day-blocked CV, and $0.17 \pm 0.30$ under leave-one-day-out CV, which averages within-day
+
+32$ (linear); all six entropies reach a pooled 0.47 (linear) and 0.49 (Random Forest) under 10-fold day-blocked CV, and $0.17 \pm 0.30$ under leave-one-day-out CV, which averages within-day $R^2$ over single held-out days. Part of the association is mecha
+
+ since $H^{dst} \le \log_2 k$ and $\iota_W = k/N$; beyond it, the evenness $H^{dst}/\log_2 k$ correlates with $\iota_W$ at $r = 0.30$. The five entropies not computed from destinations reach day-blocked $R^2 = 0.05$ (linear) and 0.11 (Random Forest). Fo
+
+/\log_2 k$ correlates with $\iota_W$ at $r = 0.30$. The five entropies not computed from destinations reach day-blocked $R^2 = 0.05$ (linear) and 0.11 (Random Forest). For the active fraction of the next non-overlapping window, carrying the current $\iota_W$ forward giv
+
+r) and 0.11 (Random Forest). For the active fraction of the next non-overlapping window, carrying the current $\iota_W$ forward gives $R^2 = 0.25$, the six entropies 0.22, and both together 0.29. The cumulative reach correlates with the calendar day at $r = 0.998$, so correlations with it describe 58-day trends i
+
+ves $R^2 = 0.25$, the six entropies 0.22, and both together 0.29. The cumulative reach correlates with the calendar day at $r = 0.998$, so correlations with it describe 58-day trends in the entropies rather than spread. It grows from 152 hosts on day~1 t
+
+r day at $r = 0.998$, so correlations with it describe 58-day trends in the entropies rather than spread. It grows from 152 hosts on day~1 to 2{,}295 on day~58, with fast growth over the first days and then at a nearly constant 35.6 hosts per day (linear fit $R^2 = 0.9
+
+pread. It grows from 152 hosts on day~1 to 2{,}295 on day~58, with fast growth over the first days and then at a nearly constant 35.6 hosts per day (linear fit $R^2 = 0.997$; Fig.~\ref{fig:lanl_panel}a): the pattern of benign discovery of rarely contacted hos
+
+ts on day~1 to 2{,}295 on day~58, with fast growth over the first days and then at a nearly constant 35.6 hosts per day (linear fit $R^2 = 0.997$; Fig.~\ref{fig:lanl_panel}a): the pattern of benign discovery of rarely contacted hosts in snapshots taken at the same 
+
+ractive (type 10) logons between distinct hosts: 5{,}508{,}694 events over $N = 12{,}213$ hosts. Each prefix covers the first 8--19 minutes of a day (median 14.3), so the data are 58 short snapshots totalling 13.9 hours. The destination of a logon is the host that recorded it (\tex
+
+ 12{,}213$ hosts. Each prefix covers the first 8--19 minutes of a day (median 14.3), so the data are 58 short snapshots totalling 13.9 hours. The destination of a logon is the host that recorded it (\texttt{LogHost}). Windows of 500 events (about 4 seconds), a
+
+d. We stream the complete authentication log (7.6~GB compressed) and keep successful logons between distinct computers: 367{,}779{,}153 events, of which 366{,}559{,}244 (99.7\%) are network or remote-interactive logons, the set analysed; 699 of the 713 tr
+
+ication log (7.6~GB compressed) and keep successful logons between distinct computers: 367{,}779{,}153 events, of which 366{,}559{,}244 (99.7\%) are network or remote-interactive logons, the set analysed; 699 of the 713 triples occur among them. Three ana
+
+: 367{,}779{,}153 events, of which 366{,}559{,}244 (99.7\%) are network or remote-interactive logons, the set analysed; 699 of the 713 triples occur among them. Three analyses are made. \emph{Hourly detectors.} Per hour we compute destination-host entrop
+
+shift between the campaign period and later days does not bias the thresholds. \emph{Fine windows.} The log is cut into 733{,}118 consecutive windows of 500 logons (median 7 seconds). For each window with red-team events we compute the bound of Prop
+
+days does not bias the thresholds. \emph{Fine windows.} The log is cut into 733{,}118 consecutive windows of 500 logons (median 7 seconds). For each window with red-team events we compute the bound of Proposition~\ref{prop:bound} and the window's destination
+
+ors with a one-hour step, and set thresholds so that red-team-free hours produce 0.1 alarms per day. The red-team hours (84, or 12.6\% of campaign hours) are excluded from the reference, so that a level shift between the campaign period and later days do
+
+nnot be excluded. \subsection{Network-wide entropy} \label{sec:cyber1_entropy} In red-team hours, red-team logons are a median 0.0013\% and at most 0.022\% of the hour's logons. By Proposition~\ref{prop:bound} with $K = 17{,}684$ computers and the median attack-free standard
+
+4$ computers and the median attack-free standard deviation of hourly entropy within an hour-of-day and day-of-week cell (0.108 bits), a one-standard-deviation shift needs $\varepsilon^{*} = 0.46\%$, about 1{,}100 malicious logons in a median hour of 24
+
+viation of hourly entropy within an hour-of-day and day-of-week cell (0.108 bits), a one-standard-deviation shift needs $\varepsilon^{*} = 0.46\%$, about 1{,}100 malicious logons in a median hour of 240{,}000, and a three-standard-deviation shift needs 1.5\%. The ca
+
+thin an hour-of-day and day-of-week cell (0.108 bits), a one-standard-deviation shift needs $\varepsilon^{*} = 0.46\%$, about 1{,}100 malicious logons in a median hour of 240{,}000, and a three-standard-deviation shift needs 1.5\%. The campaign's largest hourly share is
+
+silon^{*} = 0.46\%$, about 1{,}100 malicious logons in a median hour of 240{,}000, and a three-standard-deviation shift needs 1.5\%. The campaign's largest hourly share is 21 times below the first threshold and its median share 350 times, and its red-
+
+in a median hour of 240{,}000, and a three-standard-deviation shift needs 1.5\%. The campaign's largest hourly share is 21 times below the first threshold and its median share 350 times, and its red-team logons can move hourly entropy by at most 0.006 bi
+
+s 21 times below the first threshold and its median share 350 times, and its red-team logons can move hourly entropy by at most 0.006 bits, 0.05 standard deviations. Corollary~\ref{cor:delay} turns this into a delay. At 0.01 false alarms per day ($T = 2{,}400$ hours), a detector faci
+
+d distinct destinations alarm in red-team hours more often than chance, but red-team logons can change hourly counts by at most 0.002 standard deviations; these alarms, too, reflect when the red team operated, during busy periods, and do not distinguish the campaign from o
+
+aign period (Fig.~\ref{fig:cyber1}a) and is not reported. At the scale of 500-logon windows the attack share is larger: the 693 windows that contain red-team events hold a median of one and at most three of them (0.2\% and 0.6\%). The bound is then no lon
+
+the attack share is larger: the 693 windows that contain red-team events hold a median of one and at most three of them (0.2\% and 0.6\%). The bound is then no longer decisive, at a median 0.45 and at most 1.31 standard deviations of same-hour windows, and 
+
+eam events hold a median of one and at most three of them (0.2\% and 0.6\%). The bound is then no longer decisive, at a median 0.45 and at most 1.31 standard deviations of same-hour windows, and only one window could reach one standard deviation. The observed effect i
+
+ows, and only one window could reach one standard deviation. The observed effect is far smaller: red-team windows sit a mean 0.17 standard deviations above same-hour windows, ROC AUC 0.55, and one of 693 reaches $z \ge 3$. \begin{figure}[t] \centering \includegraphics[
+
+tion. The observed effect is far smaller: red-team windows sit a mean 0.17 standard deviations above same-hour windows, ROC AUC 0.55, and one of 693 reaches $z \ge 3$. \begin{figure}[t] \centering \includegraphics[width=\textwidth]{figures/fig4_cyber1.pdf} \caption{LA
+
+ost}, Fig.~\ref{fig:cyber1}b). Cross-entropy against each host's own history ranks red-team host-days above others with within-day ROC AUC 0.94 (95\% interval over source hosts 0.90--0.97), against 0.78 for new destinations and 0.56 for per-host destination entropy, and places every red-team host-day in the top 14\% of i
+
+others with within-day ROC AUC 0.94 (95\% interval over source hosts 0.90--0.97), against 0.78 for new destinations and 0.56 for per-host destination entropy, and places every red-team host-day in the top 14\% of its day. Part of this is novelty. A host with no history has the
+
+-entropy, against 1{,}108th for the history baseline and 1{,}628th for host age. The rank matters operationally. With a median of 11{,}141 host-days per day, capturing a quarter of red-team host-days with cross-entropy needs 264 alerts per day and half needs 522. Scor
+
+; leaving out each source host in turn gives 0.91--0.96. The difference is larger in rank: the median red-team host-day is 522nd in its day under cross-entropy, against 1{,}108th for the history baseline and 1{,}628th for host age. The rank matters
+
+perationally. With a median of 11{,}141 host-days per day, capturing a quarter of red-team host-days with cross-entropy needs 264 alerts per day and half needs 522. Scores that respond to bursts do better at small budgets: per-host destination entropy rank
+
+the Kullback--Leibler divergence $X_t(s) - H_t(s)$. Host-days with at least one red-team record as source are positives (29 of 294{,}046 campaign host-days). Alert budgets are enforced per day: the analyst sees each day's top-$b$ host-days. Because a host 
+
+olume-weighted scores rank red-team host-days below average because the red-team sources log on rarely; the logon count reaches AUC 0.12. With four source hosts, these results describe one campaign and should not be read as detection rates. %% ============
+
+d under Data availability. On a laptop (Intel Core i7-1255U, one thread), the four entropies of a 500-event window take a median of 0.09~ms, one EKF step 0.36~ms, and a Random Forest of the size used here 0.03~ms per window when windows are scored in batches of 1{,}000 (30~ms for 
+
+tropies of a 500-event window take a median of 0.09~ms, one EKF step 0.36~ms, and a Random Forest of the size used here 0.03~ms per window when windows are scored in batches of 1{,}000 (30~ms for a single call, dominated by per-call overhead), about 2{,}000 
+
+tep 0.36~ms, and a Random Forest of the size used here 0.03~ms per window when windows are scored in batches of 1{,}000 (30~ms for a single call, dominated by per-call overhead), about 2{,}000 windows per second. On the red-team data, filtering the compressed log 
+
+abelled events describe a campaign that is not epidemic. Four source hosts issue all 749 red-team records: one (C17693) issues 701 and reaches 296 destinations, and the others reach 8, 3 and 1. None of the 301 compromised destinations ever appears as a red-team sour
+
+ issue all 749 red-team records: one (C17693) issues 701 and reaches 296 destinations, and the others reach 8, 3 and 1. None of the 301 compromised destinations ever appears as a red-team source, so the labelled events contain no secondary transmission: e
+
+the labelled events contain no secondary transmission: every labelled compromise is made from one of four launch hosts, using 104 user accounts. The four sources are also new to the network: in the analysed logons, each first logs on to another computer on its fi
+
+ons, each first logs on to another computer on its first red-team day. The number of compromised hosts grows in bursts, from 24 on day 8 to 194 on day 10 and 301 by day 30. In SIR terms, the labelled compromises have $R_0 = 0$, and the growth reflects the operator's schedu
+
+ host-level logon simulator, windowed entropy recovers the reproduction number of large epidemics ($R^2$ for $\log R_0$ 0.81--0.93 with a known seed time, 0.66--0.89 without) but little of small ones, and calibrated early warning (one false alarm per 100 days) needs an onset signal-to-noise r
+
+y comes from knowing when the epidemic started. With the seed delayed by an unknown 0--60 days, overall $R^2(\log R_0)$ falls by at most 0.04 (to 0.83--0.95) and the AUC by at most 0.013, but $R^2(\log R_0)$ for large epidemics falls to 0.66--0.89, while the oracle keeps 0.96: an early and a late epidemic
+
+at most 0.04 (to 0.83--0.95) and the AUC by at most 0.013, but $R^2(\log R_0)$ for large epidemics falls to 0.66--0.89, while the oracle keeps 0.96: an early and a late epidemic of the same size are harder to tell apart from entropy than from $\iota$. \input{tables/t
+
+s are 6 hours apart. For comparison, LANL 2015 hourly destination entropy, after removing its hour-of-week profile, has autocorrelation 0.79 at a lag of 6 hours, so the AR(1) setting is not extreme. With $I(t)$ infected hosts, each infected host issues $m$ lateral logons for ever
+
+ree-standard-deviation shift needs 1.5\%. The campaign's largest hourly share is 21 times below the first threshold and its median share 350 times, and its red-team logons can move hourly entropy by at most 0.006 bits, 0.05 standard deviations. Corollary~\ref{cor:de
+
+se alarms per day ($T = 2{,}400$ hours), a detector facing the campaign's largest hourly shift in every hour would need at least 4{,}800 hours, 200 days, to detect it; summed over all 84 red-team hours, the campaign provides at most 0.0047 nats of evidence, against $\ln T
+
+our would need at least 4{,}800 hours, 200 days, to detect it; summed over all 84 red-team hours, the campaign provides at most 0.0047 nats of evidence, against $\ln T = 7.8$. \input{tables/tab_cyber1.tex} Hourly entropy nevertheless differs in red-team hours. Among camp
+
+0 days, to detect it; summed over all 84 red-team hours, the campaign provides at most 0.0047 nats of evidence, against $\ln T = 7.8$. \input{tables/tab_cyber1.tex} Hourly entropy nevertheless differs in red-team hours. Among campaign hours, raw destina
+
+iffers in red-team hours. Among campaign hours, raw destination entropy separates the 84 red-team hours from the others with ROC AUC 0.83, but the mean entropy of each hour's hour-of-week cell alone, which encodes only when the hour is, gives 0.85: the red 
+
+eparates the 84 red-team hours from the others with ROC AUC 0.83, but the mean entropy of each hour's hour-of-week cell alone, which encodes only when the hour is, gives 0.85: the red team worked at the hours of the week when entropy is high. After removing the hour-of-week profile, red-team h
+
+am worked at the hours of the week when entropy is high. After removing the hour-of-week profile, red-team hours remain 0.21 standard deviations above other campaign hours (AUC 0.60; one-sided Mann--Whitney $p = 0.0019$), four times the most that the red-team logons could cause, so this residual also reflects when the red team operated wi
+
+novelty. A host with no history has the maximal cross-entropy, and the four red-team sources are new to the network, so the host's age alone reaches AUC 0.87 and $-\log$ of its number of earlier logons 0.91. Cross-entropy keeps its lead when novelty is controlled for, though by a small margin in AUC: among host-days with at 
+
+ad when novelty is controlled for, though by a small margin in AUC: among host-days with at least three days of history (22 of the 29 positives) its AUC is 0.95, and within strata of host age also 0.95, against 0.92--0.93 for the history baseline and 0.86--0.87 for host age; leaving out each source host in turn gives 0.91--0.96. The difference is larger in rank: the median red-team host-day 
+
+strata of host age also 0.95, against 0.92--0.93 for the history baseline and 0.86--0.87 for host age; leaving out each source host in turn gives 0.91--0.96. The difference is larger in rank: the median red-team host-day is 522nd in its day under cross-entropy, against 1{,}10
+
+; leaving out each source host in turn gives 0.91--0.96. The difference is larger in rank: the median red-team host-day is 522nd in its day under cross-entropy, against 1{,}108th for the history baseline and 1{,}628th for host age. The rank matters operationally. With a median of 11{,}141 host-days per day, capturing a quarter of red-team host-days
+
+ = 0.2$) changes its median lead by at most 0.9 days in any condition. Between day 20 and the seed, the detectors raise 0.006--0.011 false alarms per day, in line with their calibration. The onset SNR is what Proposition~\ref{prop:bound} bounds. At onset, the attack's shar
+
+eviations. Per-host cross-entropy against each host's history ranks red-team host-days highly (within-day ROC AUC 0.94, 0.95 among hosts with established history), ahead of host-novelty baselines, yet needs hundreds of alerts per day to catch half of them. Network-wide entropy can
+
+ed-team campaign departs from this picture in two ways. Its labelled compromises do not propagate host to host, and its logons are 21 to 350 times below the share a network-wide entropy monitor needs for a one-standard-deviation shift. Lateral movement by a hu

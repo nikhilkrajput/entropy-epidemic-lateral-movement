@@ -1,0 +1,108 @@
+{
+  "n_host_days_campaign": 294046,
+  "positives": 29,
+  "X_host": {
+    "auc": 0.9182775380217869,
+    "ap": 0.0013276751979173936,
+    "recall_at_1": 0.0,
+    "precision_at_1": 0.0,
+    "sources_detected_at_1": [],
+    "first_detection_day_at_1": null,
+    "recall_at_10": 0.034482758620689655,
+    "precision_at_10": 0.0034482758620689655,
+    "sources_detected_at_10": [
+      17693
+    ],
+    "first_detection_day_at_10": 21.0
+  },
+  "S_host": {
+    "auc": 0.29046684258111743,
+    "ap": 6.87089266572466e-05,
+    "recall_at_1": 0.0,
+    "precision_at_1": 0.0,
+    "sources_detected_at_1": [],
+    "first_detection_day_at_1": null,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "sources_detected_at_10": [],
+    "first_detection_day_at_10": null
+  },
+  "KL_host": {
+    "auc": 0.9147324697270027,
+    "ap": 0.0007672361927267729,
+    "recall_at_1": 0.0,
+    "precision_at_1": 0.0,
+    "sources_detected_at_1": [],
+    "first_detection_day_at_1": null,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "sources_detected_at_10": [],
+    "first_detection_day_at_10": null
+  },
+  "S_pop": {
+    "auc": 0.262585449844385,
+    "ap": 7.155486416642273e-05,
+    "recall_at_1": 0.0,
+    "precision_at_1": 0.0,
+    "sources_detected_at_1": [],
+    "first_detection_day_at_1": null,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "sources_detected_at_10": [],
+    "first_detection_day_at_10": null
+  },
+  "H_today": {
+    "auc": 0.5741365177922506,
+    "ap": 0.008893134796738287,
+    "recall_at_1": 0.0,
+    "precision_at_1": 0.0,
+    "sources_detected_at_1": [],
+    "first_detection_day_at_1": null,
+    "recall_at_10": 0.2413793103448276,
+    "precision_at_10": 0.02413793103448276,
+    "sources_detected_at_10": [
+      17693
+    ],
+    "first_detection_day_at_10": 8.0
+  },
+  "new_dst": {
+    "auc": 0.7724421986859075,
+    "ap": 0.009200235683262507,
+    "recall_at_1": 0.0,
+    "precision_at_1": 0.0,
+    "sources_detected_at_1": [],
+    "first_detection_day_at_1": null,
+    "recall_at_10": 0.13793103448275862,
+    "precision_at_10": 0.013793103448275862,
+    "sources_detected_at_10": [
+      17693
+    ],
+    "first_detection_day_at_10": 8.0
+  },
+  "k_dst": {
+    "auc": 0.7211022163508491,
+    "ap": 0.0032136098334365117,
+    "recall_at_1": 0.0,
+    "precision_at_1": 0.0,
+    "sources_detected_at_1": [],
+    "first_detection_day_at_1": null,
+    "recall_at_10": 0.06896551724137931,
+    "precision_at_10": 0.006896551724137931,
+    "sources_detected_at_10": [
+      17693
+    ],
+    "first_detection_day_at_10": 8.0
+  },
+  "n": {
+    "auc": 0.11965652232400824,
+    "ap": 5.461589453895834e-05,
+    "recall_at_1": 0.0,
+    "precision_at_1": 0.0,
+    "sources_detected_at_1": [],
+    "first_detection_day_at_1": null,
+    "recall_at_10": 0.0,
+    "precision_at_10": 0.0,
+    "sources_detected_at_10": [],
+    "first_detection_day_at_10": null
+  }
+}

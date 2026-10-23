@@ -1,0 +1,113 @@
+{
+  "n_hours": 1392,
+  "redteam_hours": 84,
+  "redteam_share_of_campaign_hours": 0.12556053811659193,
+  "H_dst": {
+    "mw_resid_mean_rt": -0.24173381658211657,
+    "mw_resid_mean_other_campaign": -0.4505727657853455,
+    "mw_p_greater": 0.0018541525052642952,
+    "auc_raw": 0.8282618528722399,
+    "auc_cell_mean_only": 0.8457481804350507,
+    "auc_resid": 0.6002713927381882,
+    "LEVEL": {
+      "threshold": 1.9099730077869026,
+      "alarms_total": 6,
+      "alarms_in_rt_hours": 1,
+      "alarms_in_other_campaign_hours": 0,
+      "alarms_per_day_free_hours": 0.09174311926605505,
+      "p_rt_share_vs_hour_share": 0.31164724920344705
+    },
+    "CUSUM": {
+      "threshold": 24.36407131908709,
+      "alarms_total": 5,
+      "alarms_in_rt_hours": 0,
+      "alarms_in_other_campaign_hours": 0,
+      "alarms_per_day_free_hours": 0.09174311926605505,
+      "p_rt_share_vs_hour_share": 1.0
+    },
+    "RATE": {
+      "threshold": 3.8069026492848934,
+      "alarms_total": 5,
+      "alarms_in_rt_hours": 0,
+      "alarms_in_other_campaign_hours": 3,
+      "alarms_per_day_free_hours": 0.09174311926605505,
+      "p_rt_share_vs_hour_share": 1.0
+    }
+  },
+  "k_dst": {
+    "mw_resid_mean_rt": 0.2826562601094054,
+    "mw_resid_mean_other_campaign": -0.03741991124483271,
+    "mw_p_greater": 0.0015151320255351892,
+    "auc_raw": 0.8785003495209507,
+    "auc_cell_mean_only": 0.8507648340803488,
+    "auc_resid": 0.6069945310251244,
+    "LEVEL": {
+      "threshold": 1.7089619306716486,
+      "alarms_total": 9,
+      "alarms_in_rt_hours": 4,
+      "alarms_in_other_campaign_hours": 3,
+      "alarms_per_day_free_hours": 0.09174311926605505,
+      "p_rt_share_vs_hour_share": 0.0013060405633112523
+    },
+    "CUSUM": {
+      "threshold": 17.52596861206257,
+      "alarms_total": 7,
+      "alarms_in_rt_hours": 3,
+      "alarms_in_other_campaign_hours": 3,
+      "alarms_per_day_free_hours": 0.07339449541284404,
+      "p_rt_share_vs_hour_share": 0.006396231035440707
+    },
+    "RATE": {
+      "threshold": 3.5413292620432912,
+      "alarms_total": 7,
+      "alarms_in_rt_hours": 2,
+      "alarms_in_other_campaign_hours": 3,
+      "alarms_per_day_free_hours": 0.09174311926605505,
+      "p_rt_share_vs_hour_share": 0.06241608081159171
+    }
+  },
+  "n": {
+    "mw_resid_mean_rt": 0.5490144979031302,
+    "mw_resid_mean_other_campaign": -0.0031941329503662476,
+    "mw_p_greater": 4.1889555292538896e-08,
+    "auc_raw": 0.8916073851720877,
+    "auc_cell_mean_only": 0.8444117768000328,
+    "auc_resid": 0.6808051317899586,
+    "LEVEL": {
+      "threshold": 1.8100154875355656,
+      "alarms_total": 10,
+      "alarms_in_rt_hours": 5,
+      "alarms_in_other_campaign_hours": 2,
+      "alarms_per_day_free_hours": 0.09174311926605505,
+      "p_rt_share_vs_hour_share": 0.00015592415201508937
+    },
+    "CUSUM": {
+      "threshold": 20.465873245848343,
+      "alarms_total": 6,
+      "alarms_in_rt_hours": 1,
+      "alarms_in_other_campaign_hours": 2,
+      "alarms_per_day_free_hours": 0.09174311926605505,
+      "p_rt_share_vs_hour_share": 0.31164724920344705
+    },
+    "RATE": {
+      "threshold": 3.1967569380867644,
+      "alarms_total": 6,
+      "alarms_in_rt_hours": 1,
+      "alarms_in_other_campaign_hours": 1,
+      "alarms_per_day_free_hours": 0.09174311926605505,
+      "p_rt_share_vs_hour_share": 0.31164724920344705
+    }
+  },
+  "count_shift_by_redteam": {
+    "max_rt_events_per_hour": 55,
+    "median_cell_sd_of_hourly_count": 19415.436876648208,
+    "max_rt_events_over_cell_sd": 0.0019030590649752141,
+    "median_rt_events_over_cell_sd": 0.00014355483547943496
+  },
+  "H_dst_cell_residual": {
+    "sd_bits": 0.10889025647940871,
+    "autocorr_lag1h": 0.9471040598129261,
+    "autocorr_lag6h": 0.7852979773064672,
+    "autocorr_lag24h": 0.6073387646199105
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "campaign_days": [
+    1,
+    29
+  ],
+  "host_days": 294046,
+  "positives": 29,
+  "median_host_days_per_day": 11141.0,
+  "X_host": {
+    "auc_pooled": 0.9182775380217868,
+    "auc_within_day_percentile": 0.9370938321300446,
+    "median_rank_of_positives": 522.0,
+    "best_rank_of_positives": 8.0,
+    "recall_at_10": 0.034482758620689655,
+    "budget_for_25pct_recall": 264.0,
+    "budget_for_50pct_recall": 522.0,
+    "budget_for_75pct_recall": 1203.0
+  },
+  "KL_host": {
+    "auc_pooled": 0.9147324697270025,
+    "auc_within_day_percentile": 0.9244389809503157,
+    "median_rank_of_positives": 1013.0,
+    "best_rank_of_positives": 66.0,
+    "recall_at_10": 0.0,
+    "budget_for_25pct_recall": 525.0,
+    "budget_for_50pct_recall": 1013.0,
+    "budget_for_75pct_recall": 1207.0
+  },
+  "H_today": {
+    "auc_pooled": 0.5741365177922506,
+    "auc_within_day_percentile": 0.5636453932466725,
+    "median_rank_of_positives": 4045.0,
+    "best_rank_of_positives": 5.0,
+    "recall_at_10": 0.2413793103448276,
+    "budget_for_25pct_recall": 15.0,
+    "budget_for_50pct_recall": 4045.0,
+    "budget_for_75pct_recall": 9681.0
+  },
+  "new_dst": {
+    "auc_pooled": 0.7724421986859075,
+    "auc_within_day_percentile": 0.7787491293313675,
+    "median_rank_of_positives": 1215.5,
+    "best_rank_of_positives": 3.0,
+    "recall_at_10": 0.13793103448275862,
+    "budget_for_25pct_recall": 159.0,
+    "budget_for_50pct_recall": 1215.5,
+    "budget_for_75pct_recall": 6201.0
+  },
+  "k_dst": {
+    "auc_pooled": 0.7211022163508491,
+    "auc_within_day_percentile": 0.6857356242478589,
+    "median_rank_of_positives": 2764.0,
+    "best_rank_of_positives": 5.0,
+    "recall_at_10": 0.06896551724137931,
+    "budget_for_25pct_recall": 127.5,
+    "budget_for_50pct_recall": 2764.0,
+    "budget_for_75pct_recall": 5222.0
+  },
+  "S_host": {
+    "auc_pooled": 0.2904668425811175,
+    "auc_within_day_percentile": 0.26680377266479904,
+    "median_rank_of_positives": 9218.0,
+    "best_rank_of_positives": 1214.0,
+    "recall_at_10": 0.0,
+    "budget_for_25pct_recall": 7200.0,
+    "budget_for_50pct_recall": 9218.0,
+    "budget_for_75pct_recall": 10509.0
+  },
+  "S_pop": {
+    "auc_pooled": 0.262585449844385,
+    "auc_within_day_percentile": 0.2580974381847261,
+    "median_rank_of_positives": 9644.0,
+    "best_rank_of_positives": 465.0,
+    "recall_at_10": 0.0,
+    "budget_for_25pct_recall": 8193.0,
+    "budget_for_50pct_recall": 9644.0,
+    "budget_for_75pct_recall": 10356.0
+  },
+  "n": {
+    "auc_pooled": 0.11965652232400824,
+    "auc_within_day_percentile": 0.12325630244462758,
+    "median_rank_of_positives": 10220.0,
+    "best_rank_of_positives": 4848.5,
+    "recall_at_10": 0.0,
+    "budget_for_25pct_recall": 9480.0,
+    "budget_for_50pct_recall": 10220.0,
+    "budget_for_75pct_recall": 10621.5
+  },
+  "host_age": {
+    "auc_pooled": 0.5968562924991553,
+    "auc_within_day_percentile": 0.8697153683231781,
+    "median_rank_of_positives": 1628.0,
+    "best_rank_of_positives": 51.0,
+    "recall_at_10": 0.0,
+    "budget_for_25pct_recall": 985.0,
+    "budget_for_50pct_recall": 1628.0,
+    "budget_for_75pct_recall": 2461.0
+  },
+  "neg_log_hist": {
+    "auc_pooled": 0.8741825625142717,
+    "auc_within_day_percentile": 0.9126367663704176,
+    "median_rank_of_positives": 1107.5,
+    "best_rank_of_positives": 51.0,
+    "recall_at_10": 0.0,
+    "budget_for_25pct_recall": 902.0,
+    "budget_for_50pct_recall": 1107.5,
+    "budget_for_75pct_recall": 1170.0
+  }
+}

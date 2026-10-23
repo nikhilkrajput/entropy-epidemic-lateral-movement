@@ -1,0 +1,22 @@
+{
+  "W": 500,
+  "n_windows": 733118,
+  "window_seconds_median": 7.0,
+  "redteam_records": 749,
+  "redteam_distinct_triples": 713,
+  "redteam_triples_found": 699,
+  "windows_with_redteam": 693,
+  "redteam_events_in_windows": 705,
+  "eps_median": 0.002,
+  "eps_max": 0.006,
+  "bound_bits_median": 0.0490342222049141,
+  "bound_bits_max": 0.13757553295308686,
+  "baseline_sd_bits_median": 0.1262682593394521,
+  "bound_over_sd_median": 0.44702040666841153,
+  "bound_over_sd_max": 1.3149268749927179,
+  "frac_rt_windows_bound_over_sd_ge_1": 0.001443001443001443,
+  "rt_window_z_mean": 0.17110483593942305,
+  "rt_window_z_median": 0.16298202140051002,
+  "auc_rt_windows_vs_same_hour": 0.5452474855153939,
+  "rt_windows_with_z_ge_3": 1
+}

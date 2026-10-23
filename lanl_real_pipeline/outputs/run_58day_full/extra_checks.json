@@ -1,0 +1,42 @@
+{
+  "distinct_dst_per_window": {
+    "min": 1,
+    "median": 24.0,
+    "max": 42
+  },
+  "corr_Hdst_log2k": 0.5598312728762213,
+  "Hdst_over_log2k": {
+    "median": 0.5400904230527712,
+    "p10": 0.4315354337604034,
+    "p90": 0.6447558820427429
+  },
+  "partial_corr_Hdst_iota_given_log2k": 0.1002387889507968,
+  "dayblock_R2_src_usr_spectral_linear": 0.05419630764872896,
+  "dayblock_R2_src_usr_spectral_rf": 0.1075386095410934,
+  "dayblock_R2_all_six_linear": 0.4695283045365596,
+  "dayblock_R2_all_six_rf": 0.48943612072681164,
+  "dayblock_R2_Hdst_only_linear": 0.31521963727879754,
+  "corr_evenness_iota": 0.2968171978499259,
+  "next_window_dayblock_R2_linear": {
+    "persistence_current_iota": 0.25377249311317607,
+    "Hdst_only": 0.12124433037619364,
+    "all_six": 0.21968812267473103,
+    "all_six_plus_current_iota": 0.28712555866555833
+  },
+  "daily_prefix_span_minutes": {
+    "median": 14.333333333333332,
+    "min": 8.416666666666666,
+    "max": 18.733333333333334,
+    "total_hours": 13.865000000000002
+  },
+  "window_spacing_seconds_median": 2.0,
+  "corr_with_day": {
+    "H_S_dst": 0.010462536370846084,
+    "H_S_src": -0.2409862743093109,
+    "H_S_usr": -0.2818123060414629,
+    "H_R_src": -0.19727710907269141,
+    "H_T_src": -0.15894904682087696,
+    "H_Sp": 0.007626916716479372,
+    "iota_cum": 0.998400386234584
+  }
+}

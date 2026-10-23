@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# raw LANL data are not redistributed
+auth.txt.gz
+filt.csv
+data_58day*/
+redteam.txt*
+lanl_real_pipeline/cyber1/

@@ -1,0 +1,11 @@
+{
+  "K": 17684,
+  "n_redteam_hours": 84,
+  "eps_median": 1.329229556713187e-05,
+  "eps_max": 0.00022160977339393353,
+  "bound_bits_median": 0.0004220117606290204,
+  "bound_bits_max": 0.006136884655165271,
+  "hourly_sd_bits_median": 0.10768578247802721,
+  "bound_over_sd_median": 0.003914336629523399,
+  "bound_over_sd_max": 0.04890369493138108
+}

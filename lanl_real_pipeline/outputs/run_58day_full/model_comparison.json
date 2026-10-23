@@ -1,0 +1,99 @@
+{
+  "n_windows": 22033,
+  "n_days": 58,
+  "n_hosts": 12213,
+  "dayblock_folds": 10,
+  "linkage_r_HSdst": 0.5655937732774325,
+  "enhanced_feature_names": [
+    "H_S_src",
+    "H_S_dst",
+    "H_S_usr",
+    "H_R_src",
+    "H_T_src",
+    "H_Sp",
+    "dst_src_ratio",
+    "dst_usr_gap",
+    "renyi_shannon_gap",
+    "H_S_dst_rate",
+    "H_S_dst_rmean",
+    "H_S_dst_rstd",
+    "H_S_src_rate",
+    "H_S_src_rmean",
+    "H_S_src_rstd",
+    "H_S_usr_rate",
+    "H_S_usr_rmean",
+    "H_S_usr_rstd",
+    "H_S_dst_slope"
+  ],
+  "model_comparison": [
+    {
+      "model": "Mean baseline",
+      "base_random_r2": -0.00013109968097038127,
+      "base_dayblock_r2": -0.033192668399744996,
+      "enh_random_r2": -0.00013109968097038127,
+      "enh_dayblock_r2": -0.033192668399744996,
+      "enh_dayblock_std": 0.04380858620382693
+    },
+    {
+      "model": "Linear",
+      "base_random_r2": 0.4855615825636971,
+      "base_dayblock_r2": 0.4430246647493611,
+      "enh_random_r2": 0.5048593887106667,
+      "enh_dayblock_r2": 0.46095129399867324,
+      "enh_dayblock_std": 0.09225638763025835
+    },
+    {
+      "model": "Ridge",
+      "base_random_r2": 0.4855612626756587,
+      "base_dayblock_r2": 0.4430311130429222,
+      "enh_random_r2": 0.504864830260268,
+      "enh_dayblock_r2": 0.46096738268186643,
+      "enh_dayblock_std": 0.09232074882725647
+    },
+    {
+      "model": "kNN (k=15)",
+      "base_random_r2": 0.49448653854056834,
+      "base_dayblock_r2": 0.42720584696392105,
+      "enh_random_r2": 0.47509695814113717,
+      "enh_dayblock_r2": 0.4119560108876151,
+      "enh_dayblock_std": 0.07231783015036185
+    },
+    {
+      "model": "RandomForest",
+      "base_random_r2": 0.5242157399069118,
+      "base_dayblock_r2": 0.46812191349705135,
+      "enh_random_r2": 0.5362643779209785,
+      "enh_dayblock_r2": 0.47677524577464886,
+      "enh_dayblock_std": 0.07321100848461785
+    },
+    {
+      "model": "ExtraTrees",
+      "base_random_r2": 0.4874070502961148,
+      "base_dayblock_r2": 0.4269920265572843,
+      "enh_random_r2": 0.5299922596333017,
+      "enh_dayblock_r2": 0.46549878229866637,
+      "enh_dayblock_std": 0.0780247227346174
+    },
+    {
+      "model": "HistGradientBoosting",
+      "base_random_r2": 0.4375086825296119,
+      "base_dayblock_r2": 0.3998478598851918,
+      "enh_random_r2": 0.4395115478643426,
+      "enh_dayblock_r2": 0.3976153132675488,
+      "enh_dayblock_std": 0.047365476947128525
+    }
+  ],
+  "baseline_paper_model": {
+    "model": "RandomForest",
+    "features": "6 entropy",
+    "dayblock_r2": 0.46812191349705135,
+    "random_r2": 0.5242157399069118
+  },
+  "best_model": {
+    "model": "RandomForest",
+    "features": "enhanced",
+    "dayblock_r2": 0.47677524577464886,
+    "dayblock_std": 0.07321100848461785,
+    "random_r2": 0.5362643779209785
+  }
+}

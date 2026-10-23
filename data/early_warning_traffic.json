@@ -1,0 +1,652 @@
+{
+  "settings": {
+    "dt_days": 0.25,
+    "attack_day": 30.0,
+    "horizon_days": 230.0,
+    "calibration_days": 20.0,
+    "rate_window_refractory_samples": 16,
+    "cusum_k": {
+      "CUSUM": 0.5,
+      "CUSUM2": 0.2
+    },
+    "target_far_per_day": 0.01,
+    "n_runs": 200,
+    "n_calibration_series": 1000,
+    "snr_windows_each": 4000,
+    "baselines": {
+      "none": [
+        0.0,
+        0.0
+      ],
+      "iid": [
+        0.15,
+        0.0
+      ],
+      "ar1": [
+        0.15,
+        0.63
+      ]
+    },
+    "observable": "destination-host Shannon entropy",
+    "onset": "iota > 0.01",
+    "detector_run": "continuous from the end of calibration; not reset at the seed"
+  },
+  "thresholds_none": {
+    "LEVEL": {
+      "h": 2.904985174536705,
+      "far_cal": 0.01,
+      "far_fresh": 0.009561904761904761
+    },
+    "CUSUM": {
+      "h": 4.571619853377342,
+      "far_cal": 0.01,
+      "far_fresh": 0.00950952380952381
+    },
+    "CUSUM2": {
+      "h": 9.061785861849785,
+      "far_cal": 0.01,
+      "far_fresh": 0.009523809523809525
+    },
+    "RATE": {
+      "h": 3.0263149738311768,
+      "far_cal": 0.01,
+      "far_fresh": 0.009804761904761905
+    }
+  },
+  "thresholds_iid": {
+    "LEVEL": {
+      "h": 3.678315654397011,
+      "far_cal": 0.01,
+      "far_fresh": 0.009857142857142858
+    },
+    "CUSUM": {
+      "h": 5.3459323942661285,
+      "far_cal": 0.01,
+      "far_fresh": 0.01017142857142857
+    },
+    "CUSUM2": {
+      "h": 9.676156342029572,
+      "far_cal": 0.01,
+      "far_fresh": 0.010052380952380952
+    },
+    "RATE": {
+      "h": 3.010149523615837,
+      "far_cal": 0.01,
+      "far_fresh": 0.011595238095238096
+    }
+  },
+  "thresholds_ar1": {
+    "LEVEL": {
+      "h": 3.766476735472679,
+      "far_cal": 0.01,
+      "far_fresh": 0.010638095238095238
+    },
+    "CUSUM": {
+      "h": 14.852166548371315,
+      "far_cal": 0.01,
+      "far_fresh": 0.010638095238095238
+    },
+    "CUSUM2": {
+      "h": 25.963725596666336,
+      "far_cal": 0.01,
+      "far_fresh": 0.010266666666666667
+    },
+    "RATE": {
+      "h": 2.984459698200226,
+      "far_cal": 0.01,
+      "far_fresh": 0.011619047619047619
+    }
+  },
+  "m0.5_none": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -4.75,
+      "lead_median_detected": -4.75,
+      "missed": 0,
+      "early_fraction": 0.1958762886597938,
+      "chance_early_fraction": 0.12148245985638458,
+      "early_vs_chance_p": 0.0020000448610203074,
+      "pre_attack_false_alarm_runs": 16,
+      "pre_attack_false_alarms_per_day": 0.008762886597938144
+    },
+    "CUSUM": {
+      "lead_median_censored": -2.875,
+      "lead_median_detected": -2.875,
+      "missed": 0,
+      "early_fraction": 0.23195876288659795,
+      "chance_early_fraction": 0.12088451814779384,
+      "early_vs_chance_p": 1.2120060126018887e-05,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "CUSUM2": {
+      "lead_median_censored": -2.75,
+      "lead_median_detected": -2.75,
+      "missed": 0,
+      "early_fraction": 0.25773195876288657,
+      "chance_early_fraction": 0.1210476588619798,
+      "early_vs_chance_p": 1.5297682680316846e-07,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "RATE": {
+      "lead_median_censored": -7.25,
+      "lead_median_detected": -6.625,
+      "missed": 18,
+      "early_fraction": 0.1134020618556701,
+      "chance_early_fraction": 0.12424610642371714,
+      "early_vs_chance_p": 0.7080797552060647,
+      "pre_attack_false_alarm_runs": 15,
+      "pre_attack_false_alarms_per_day": 0.007731958762886598
+    },
+    "snr_on": 0.3614556571440336,
+    "snr_on_se": 0.022569833505286473
+  },
+  "m1.0_none": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -2.25,
+      "lead_median_detected": -2.25,
+      "missed": 0,
+      "early_fraction": 0.31958762886597936,
+      "chance_early_fraction": 0.12148245985638458,
+      "early_vs_chance_p": 3.459562470201751e-13,
+      "pre_attack_false_alarm_runs": 16,
+      "pre_attack_false_alarms_per_day": 0.008762886597938144
+    },
+    "CUSUM": {
+      "lead_median_censored": -0.5,
+      "lead_median_detected": -0.5,
+      "missed": 0,
+      "early_fraction": 0.4329896907216495,
+      "chance_early_fraction": 0.12088451814779384,
+      "early_vs_chance_p": 1.783037157639895e-27,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "CUSUM2": {
+      "lead_median_censored": 0.0,
+      "lead_median_detected": 0.0,
+      "missed": 0,
+      "early_fraction": 0.4639175257731959,
+      "chance_early_fraction": 0.1210476588619798,
+      "early_vs_chance_p": 4.4811669129355957e-32,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "RATE": {
+      "lead_median_censored": -5.0,
+      "lead_median_detected": -4.875,
+      "missed": 8,
+      "early_fraction": 0.14432989690721648,
+      "chance_early_fraction": 0.12424610642371714,
+      "early_vs_chance_p": 0.22610534370659546,
+      "pre_attack_false_alarm_runs": 15,
+      "pre_attack_false_alarms_per_day": 0.007731958762886598
+    },
+    "snr_on": 0.6971034466382862,
+    "snr_on_se": 0.022827418954209637
+  },
+  "m2.0_none": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": 0.5,
+      "lead_median_detected": 0.5,
+      "missed": 0,
+      "early_fraction": 0.5412371134020618,
+      "chance_early_fraction": 0.12148245985638458,
+      "early_vs_chance_p": 6.209638606100045e-45,
+      "pre_attack_false_alarm_runs": 16,
+      "pre_attack_false_alarms_per_day": 0.008762886597938144
+    },
+    "CUSUM": {
+      "lead_median_censored": 2.5,
+      "lead_median_detected": 2.5,
+      "missed": 0,
+      "early_fraction": 0.8247422680412371,
+      "chance_early_fraction": 0.12088451814779384,
+      "early_vs_chance_p": 1.8604498290167667e-111,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "CUSUM2": {
+      "lead_median_censored": 2.75,
+      "lead_median_detected": 2.75,
+      "missed": 0,
+      "early_fraction": 0.845360824742268,
+      "chance_early_fraction": 0.1210476588619798,
+      "early_vs_chance_p": 1.311913364885483e-117,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "RATE": {
+      "lead_median_censored": -2.75,
+      "lead_median_detected": -2.75,
+      "missed": 2,
+      "early_fraction": 0.21649484536082475,
+      "chance_early_fraction": 0.12424610642371714,
+      "early_vs_chance_p": 0.0002246001539188119,
+      "pre_attack_false_alarm_runs": 15,
+      "pre_attack_false_alarms_per_day": 0.007731958762886598
+    },
+    "snr_on": 1.3586796877437435,
+    "snr_on_se": 0.02328757911877629
+  },
+  "m5.0_none": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": 4.0,
+      "lead_median_detected": 4.0,
+      "missed": 0,
+      "early_fraction": 0.9690721649484536,
+      "chance_early_fraction": 0.12148245985638458,
+      "early_vs_chance_p": 2.4464758691055067e-162,
+      "pre_attack_false_alarm_runs": 16,
+      "pre_attack_false_alarms_per_day": 0.008762886597938144
+    },
+    "CUSUM": {
+      "lead_median_censored": 5.5,
+      "lead_median_detected": 5.5,
+      "missed": 0,
+      "early_fraction": 1.0,
+      "chance_early_fraction": 0.12088451814779384,
+      "early_vs_chance_p": 9.54800504378124e-179,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "CUSUM2": {
+      "lead_median_censored": 5.25,
+      "lead_median_detected": 5.25,
+      "missed": 0,
+      "early_fraction": 1.0,
+      "chance_early_fraction": 0.1210476588619798,
+      "early_vs_chance_p": 1.2403392872217983e-178,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "RATE": {
+      "lead_median_censored": 1.0,
+      "lead_median_detected": 1.0,
+      "missed": 0,
+      "early_fraction": 0.5979381443298969,
+      "chance_early_fraction": 0.12424610642371714,
+      "early_vs_chance_p": 1.0583557588091491e-54,
+      "pre_attack_false_alarm_runs": 15,
+      "pre_attack_false_alarms_per_day": 0.007731958762886598
+    },
+    "snr_on": 3.2594742367219136,
+    "snr_on_se": 0.024393520469268657
+  },
+  "m0.5_iid": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -12.25,
+      "lead_median_detected": -11.875,
+      "missed": 8,
+      "early_fraction": 0.15463917525773196,
+      "chance_early_fraction": 0.12484033334443598,
+      "early_vs_chance_p": 0.1270502486289955,
+      "pre_attack_false_alarm_runs": 12,
+      "pre_attack_false_alarms_per_day": 0.006185567010309278
+    },
+    "CUSUM": {
+      "lead_median_censored": -8.375,
+      "lead_median_detected": -8.25,
+      "missed": 1,
+      "early_fraction": 0.10824742268041238,
+      "chance_early_fraction": 0.12839197718507256,
+      "early_vs_chance_p": 0.8274109117152333,
+      "pre_attack_false_alarm_runs": 19,
+      "pre_attack_false_alarms_per_day": 0.00979381443298969
+    },
+    "CUSUM2": {
+      "lead_median_censored": -8.0,
+      "lead_median_detected": -8.0,
+      "missed": 0,
+      "early_fraction": 0.15979381443298968,
+      "chance_early_fraction": 0.12704941652407306,
+      "early_vs_chance_p": 0.10591130502999899,
+      "pre_attack_false_alarm_runs": 15,
+      "pre_attack_false_alarms_per_day": 0.007731958762886598
+    },
+    "RATE": {
+      "lead_median_censored": -20.5,
+      "lead_median_detected": -10.375,
+      "missed": 62,
+      "early_fraction": 0.13402061855670103,
+      "chance_early_fraction": 0.1441932909289575,
+      "early_vs_chance_p": 0.6868997731361384,
+      "pre_attack_false_alarm_runs": 18,
+      "pre_attack_false_alarms_per_day": 0.010309278350515464
+    },
+    "snr_on": 0.11928390807527992,
+    "snr_on_se": 0.022397544719428255
+  },
+  "m1.0_iid": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -9.0,
+      "lead_median_detected": -8.875,
+      "missed": 4,
+      "early_fraction": 0.16494845360824742,
+      "chance_early_fraction": 0.12484033334443598,
+      "early_vs_chance_p": 0.06094271496645856,
+      "pre_attack_false_alarm_runs": 12,
+      "pre_attack_false_alarms_per_day": 0.006185567010309278
+    },
+    "CUSUM": {
+      "lead_median_censored": -5.875,
+      "lead_median_detected": -5.875,
+      "missed": 0,
+      "early_fraction": 0.15463917525773196,
+      "chance_early_fraction": 0.12839197718507256,
+      "early_vs_chance_p": 0.16175603854544107,
+      "pre_attack_false_alarm_runs": 19,
+      "pre_attack_false_alarms_per_day": 0.00979381443298969
+    },
+    "CUSUM2": {
+      "lead_median_censored": -5.25,
+      "lead_median_detected": -5.25,
+      "missed": 0,
+      "early_fraction": 0.18556701030927836,
+      "chance_early_fraction": 0.12704941652407306,
+      "early_vs_chance_p": 0.012527058478987085,
+      "pre_attack_false_alarm_runs": 15,
+      "pre_attack_false_alarms_per_day": 0.007731958762886598
+    },
+    "RATE": {
+      "lead_median_censored": -10.25,
+      "lead_median_detected": -8.0,
+      "missed": 43,
+      "early_fraction": 0.14432989690721648,
+      "chance_early_fraction": 0.1441932909289575,
+      "early_vs_chance_p": 0.5289156601689164,
+      "pre_attack_false_alarm_runs": 18,
+      "pre_attack_false_alarms_per_day": 0.010309278350515464
+    },
+    "snr_on": 0.21078966611291144,
+    "snr_on_se": 0.02237085066064532
+  },
+  "m2.0_iid": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -6.75,
+      "lead_median_detected": -6.625,
+      "missed": 2,
+      "early_fraction": 0.18041237113402062,
+      "chance_early_fraction": 0.12484033334443598,
+      "early_vs_chance_p": 0.016044072886756675,
+      "pre_attack_false_alarm_runs": 12,
+      "pre_attack_false_alarms_per_day": 0.006185567010309278
+    },
+    "CUSUM": {
+      "lead_median_censored": -3.375,
+      "lead_median_detected": -3.375,
+      "missed": 0,
+      "early_fraction": 0.2268041237113402,
+      "chance_early_fraction": 0.12839197718507256,
+      "early_vs_chance_p": 0.00011200970009900845,
+      "pre_attack_false_alarm_runs": 19,
+      "pre_attack_false_alarms_per_day": 0.00979381443298969
+    },
+    "CUSUM2": {
+      "lead_median_censored": -2.5,
+      "lead_median_detected": -2.5,
+      "missed": 0,
+      "early_fraction": 0.28865979381443296,
+      "chance_early_fraction": 0.12704941652407306,
+      "early_vs_chance_p": 1.9792541945700443e-09,
+      "pre_attack_false_alarm_runs": 15,
+      "pre_attack_false_alarms_per_day": 0.007731958762886598
+    },
+    "RATE": {
+      "lead_median_censored": -7.125,
+      "lead_median_detected": -6.25,
+      "missed": 30,
+      "early_fraction": 0.17010309278350516,
+      "chance_early_fraction": 0.1441932909289575,
+      "early_vs_chance_p": 0.17638975930531037,
+      "pre_attack_false_alarm_runs": 18,
+      "pre_attack_false_alarms_per_day": 0.010309278350515464
+    },
+    "snr_on": 0.39100269297074625,
+    "snr_on_se": 0.02228083086187525
+  },
+  "m5.0_iid": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -3.75,
+      "lead_median_detected": -3.75,
+      "missed": 0,
+      "early_fraction": 0.22164948453608246,
+      "chance_early_fraction": 0.12484033334443598,
+      "early_vs_chance_p": 0.00012219261825778497,
+      "pre_attack_false_alarm_runs": 12,
+      "pre_attack_false_alarms_per_day": 0.006185567010309278
+    },
+    "CUSUM": {
+      "lead_median_censored": 0.125,
+      "lead_median_detected": 0.125,
+      "missed": 0,
+      "early_fraction": 0.5,
+      "chance_early_fraction": 0.12839197718507256,
+      "early_vs_chance_p": 9.221875559039965e-36,
+      "pre_attack_false_alarm_runs": 19,
+      "pre_attack_false_alarms_per_day": 0.00979381443298969
+    },
+    "CUSUM2": {
+      "lead_median_censored": 1.0,
+      "lead_median_detected": 1.0,
+      "missed": 0,
+      "early_fraction": 0.5824742268041238,
+      "chance_early_fraction": 0.12704941652407306,
+      "early_vs_chance_p": 1.0670738105734572e-50,
+      "pre_attack_false_alarm_runs": 15,
+      "pre_attack_false_alarms_per_day": 0.007731958762886598
+    },
+    "RATE": {
+      "lead_median_censored": -3.75,
+      "lead_median_detected": -3.25,
+      "missed": 19,
+      "early_fraction": 0.21649484536082475,
+      "chance_early_fraction": 0.1441932909289575,
+      "early_vs_chance_p": 0.004230124793852557,
+      "pre_attack_false_alarm_runs": 18,
+      "pre_attack_false_alarms_per_day": 0.010309278350515464
+    },
+    "snr_on": 0.9087141316571631,
+    "snr_on_se": 0.022040566780787425
+  },
+  "m0.5_ar1": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -13.375,
+      "lead_median_detected": -12.25,
+      "missed": 18,
+      "early_fraction": 0.10824742268041238,
+      "chance_early_fraction": 0.1336226548866321,
+      "early_vs_chance_p": 0.8757989772576796,
+      "pre_attack_false_alarm_runs": 14,
+      "pre_attack_false_alarms_per_day": 0.007216494845360825
+    },
+    "CUSUM": {
+      "lead_median_censored": -10.375,
+      "lead_median_detected": -10.25,
+      "missed": 3,
+      "early_fraction": 0.16494845360824742,
+      "chance_early_fraction": 0.1336226548866321,
+      "early_vs_chance_p": 0.12122298350781416,
+      "pre_attack_false_alarm_runs": 18,
+      "pre_attack_false_alarms_per_day": 0.009278350515463918
+    },
+    "CUSUM2": {
+      "lead_median_censored": -10.125,
+      "lead_median_detected": -10.0,
+      "missed": 2,
+      "early_fraction": 0.16494845360824742,
+      "chance_early_fraction": 0.12946361442579316,
+      "early_vs_chance_p": 0.08914438365799969,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "RATE": {
+      "lead_median_censored": -73.5,
+      "lead_median_detected": -12.5,
+      "missed": 75,
+      "early_fraction": 0.1134020618556701,
+      "chance_early_fraction": 0.1444535846758081,
+      "early_vs_chance_p": 0.9122326484014287,
+      "pre_attack_false_alarm_runs": 21,
+      "pre_attack_false_alarms_per_day": 0.01134020618556701
+    },
+    "snr_on": 0.13679166355313568,
+    "snr_on_se": 0.02243991579329684
+  },
+  "m1.0_ar1": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -10.0,
+      "lead_median_detected": -10.0,
+      "missed": 7,
+      "early_fraction": 0.1134020618556701,
+      "chance_early_fraction": 0.1336226548866321,
+      "early_vs_chance_p": 0.8239553898595124,
+      "pre_attack_false_alarm_runs": 14,
+      "pre_attack_false_alarms_per_day": 0.007216494845360825
+    },
+    "CUSUM": {
+      "lead_median_censored": -8.0,
+      "lead_median_detected": -8.0,
+      "missed": 1,
+      "early_fraction": 0.16494845360824742,
+      "chance_early_fraction": 0.1336226548866321,
+      "early_vs_chance_p": 0.12122298350781416,
+      "pre_attack_false_alarm_runs": 18,
+      "pre_attack_false_alarms_per_day": 0.009278350515463918
+    },
+    "CUSUM2": {
+      "lead_median_censored": -7.75,
+      "lead_median_detected": -7.75,
+      "missed": 0,
+      "early_fraction": 0.19072164948453607,
+      "chance_early_fraction": 0.12946361442579316,
+      "early_vs_chance_p": 0.009970576414152993,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "RATE": {
+      "lead_median_censored": -25.625,
+      "lead_median_detected": -9.75,
+      "missed": 68,
+      "early_fraction": 0.12886597938144329,
+      "chance_early_fraction": 0.1444535846758081,
+      "early_vs_chance_p": 0.7604893538502057,
+      "pre_attack_false_alarm_runs": 21,
+      "pre_attack_false_alarms_per_day": 0.01134020618556701
+    },
+    "snr_on": 0.22741212817173745,
+    "snr_on_se": 0.0224176828921028
+  },
+  "m2.0_ar1": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -7.5,
+      "lead_median_detected": -7.5,
+      "missed": 2,
+      "early_fraction": 0.12886597938144329,
+      "chance_early_fraction": 0.1336226548866321,
+      "early_vs_chance_p": 0.6088637057888587,
+      "pre_attack_false_alarm_runs": 14,
+      "pre_attack_false_alarms_per_day": 0.007216494845360825
+    },
+    "CUSUM": {
+      "lead_median_censored": -5.25,
+      "lead_median_detected": -5.25,
+      "missed": 0,
+      "early_fraction": 0.18556701030927836,
+      "chance_early_fraction": 0.1336226548866321,
+      "early_vs_chance_p": 0.025352673889243837,
+      "pre_attack_false_alarm_runs": 18,
+      "pre_attack_false_alarms_per_day": 0.009278350515463918
+    },
+    "CUSUM2": {
+      "lead_median_censored": -5.25,
+      "lead_median_detected": -5.25,
+      "missed": 0,
+      "early_fraction": 0.20618556701030927,
+      "chance_early_fraction": 0.12946361442579316,
+      "early_vs_chance_p": 0.0018753077404213346,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "RATE": {
+      "lead_median_censored": -11.375,
+      "lead_median_detected": -7.875,
+      "missed": 60,
+      "early_fraction": 0.13402061855670103,
+      "chance_early_fraction": 0.1444535846758081,
+      "early_vs_chance_p": 0.6905088373299948,
+      "pre_attack_false_alarm_runs": 21,
+      "pre_attack_false_alarms_per_day": 0.01134020618556701
+    },
+    "snr_on": 0.40595979096066487,
+    "snr_on_se": 0.022339112904374958
+  },
+  "m5.0_ar1": {
+    "n_runs_with_onset": 194,
+    "mean_onset_after_attack_days": 14.162371134020619,
+    "LEVEL": {
+      "lead_median_censored": -3.75,
+      "lead_median_detected": -3.75,
+      "missed": 1,
+      "early_fraction": 0.1958762886597938,
+      "chance_early_fraction": 0.1336226548866321,
+      "early_vs_chance_p": 0.009711953115267671,
+      "pre_attack_false_alarm_runs": 14,
+      "pre_attack_false_alarms_per_day": 0.007216494845360825
+    },
+    "CUSUM": {
+      "lead_median_censored": -1.625,
+      "lead_median_detected": -1.625,
+      "missed": 0,
+      "early_fraction": 0.35051546391752575,
+      "chance_early_fraction": 0.1336226548866321,
+      "early_vs_chance_p": 1.6112075544024777e-14,
+      "pre_attack_false_alarm_runs": 18,
+      "pre_attack_false_alarms_per_day": 0.009278350515463918
+    },
+    "CUSUM2": {
+      "lead_median_censored": -1.5,
+      "lead_median_detected": -1.5,
+      "missed": 0,
+      "early_fraction": 0.36082474226804123,
+      "chance_early_fraction": 0.12946361442579316,
+      "early_vs_chance_p": 2.402758995845646e-16,
+      "pre_attack_false_alarm_runs": 11,
+      "pre_attack_false_alarms_per_day": 0.005670103092783505
+    },
+    "RATE": {
+      "lead_median_censored": -7.0,
+      "lead_median_detected": -5.0,
+      "missed": 44,
+      "early_fraction": 0.14948453608247422,
+      "chance_early_fraction": 0.1444535846758081,
+      "early_vs_chance_p": 0.4517642562373864,
+      "pre_attack_false_alarm_runs": 21,
+      "pre_attack_false_alarms_per_day": 0.01134020618556701
+    },
+    "snr_on": 0.9188303213365943,
+    "snr_on_se": 0.02211327429015357
+  }
+}

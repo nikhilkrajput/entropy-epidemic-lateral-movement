@@ -1,0 +1,272 @@
+{
+  "n_events_success_logon_distinct": 367779153,
+  "n_events_network_remoteinteractive": 366559244,
+  "logon_type_counts": {
+    "Network": 366492452,
+    "Unlock": 1053127,
+    "Interactive": 148169,
+    "RemoteInteractive": 66792,
+    "CachedInteractive": 13632,
+    "NetworkCleartext": 4962,
+    "?": 1,
+    "NewCredentials": 18
+  },
+  "redteam": {
+    "n": 749,
+    "found_all_types": 705,
+    "found_keep_set": 705,
+    "first_day": 1.7463541666666667,
+    "last_day": 29.59545138888889,
+    "n_src_hosts": 4,
+    "n_dst_hosts": 301
+  },
+  "calibration_days": [
+    31.0,
+    58.0
+  ],
+  "target_far_per_day": 0.1,
+  "global_detectors": {
+    "H_dst|global|LEVEL": {
+      "threshold": 2.6624102248206327,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.0,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 831.0,
+      "alarms_in_hours_with_redteam": 0
+    },
+    "H_dst|global|CUSUM": {
+      "threshold": 11.055933892839676,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.03587443946188341,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 286.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "H_dst|global|RATE": {
+      "threshold": 3.1628186075977283,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.10762331838565023,
+      "alarms_per_day_precampaign": 1.1428571428571428,
+      "first_alarm_after_onset_hours": 87.0,
+      "alarms_in_hours_with_redteam": 3
+    },
+    "H_dst|diurnal|LEVEL": {
+      "threshold": 2.578048997656879,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.0,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 816.0,
+      "alarms_in_hours_with_redteam": 0
+    },
+    "H_dst|diurnal|CUSUM": {
+      "threshold": 15.170626298004208,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.0,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 822.0,
+      "alarms_in_hours_with_redteam": 0
+    },
+    "H_dst|diurnal|RATE": {
+      "threshold": 3.1868943471636157,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.14349775784753363,
+      "alarms_per_day_precampaign": 1.1428571428571428,
+      "first_alarm_after_onset_hours": 86.0,
+      "alarms_in_hours_with_redteam": 3
+    },
+    "k_dst|global|LEVEL": {
+      "threshold": 2.0708113899672753,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.10762331838565023,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 301.0,
+      "alarms_in_hours_with_redteam": 2
+    },
+    "k_dst|global|CUSUM": {
+      "threshold": 23.30081043719474,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.07174887892376682,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 142.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "k_dst|global|RATE": {
+      "threshold": 3.957932440789591,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.10762331838565023,
+      "alarms_per_day_precampaign": 0.5714285714285714,
+      "first_alarm_after_onset_hours": 87.0,
+      "alarms_in_hours_with_redteam": 3
+    },
+    "k_dst|diurnal|LEVEL": {
+      "threshold": 1.6059235215834633,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.4304932735426009,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 126.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "k_dst|diurnal|CUSUM": {
+      "threshold": 31.74105962198155,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.07174887892376682,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 145.0,
+      "alarms_in_hours_with_redteam": 0
+    },
+    "k_dst|diurnal|RATE": {
+      "threshold": 4.841347333240265,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.17937219730941703,
+      "alarms_per_day_precampaign": 0.5714285714285714,
+      "first_alarm_after_onset_hours": 86.0,
+      "alarms_in_hours_with_redteam": 3
+    },
+    "new_edges|global|LEVEL": {
+      "threshold": 7.028326692761766,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.10762331838565023,
+      "alarms_per_day_precampaign": 2.2857142857142856,
+      "first_alarm_after_onset_hours": 85.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "new_edges|global|CUSUM": {
+      "threshold": 18.1306300889446,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.17937219730941703,
+      "alarms_per_day_precampaign": 2.857142857142857,
+      "first_alarm_after_onset_hours": 16.0,
+      "alarms_in_hours_with_redteam": 2
+    },
+    "new_edges|global|RATE": {
+      "threshold": 5.132365582721832,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.10762331838565023,
+      "alarms_per_day_precampaign": 1.1428571428571428,
+      "first_alarm_after_onset_hours": 85.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "new_edges|diurnal|LEVEL": {
+      "threshold": 4.879856802017457,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.9327354260089686,
+      "alarms_per_day_precampaign": 5.714285714285714,
+      "first_alarm_after_onset_hours": 0.0,
+      "alarms_in_hours_with_redteam": 4
+    },
+    "new_edges|diurnal|CUSUM": {
+      "threshold": 20.60634580975602,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.7533632286995515,
+      "alarms_per_day_precampaign": 5.142857142857143,
+      "first_alarm_after_onset_hours": 0.0,
+      "alarms_in_hours_with_redteam": 3
+    },
+    "new_edges|diurnal|RATE": {
+      "threshold": 3.926633094670251,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.6457399103139013,
+      "alarms_per_day_precampaign": 3.4285714285714284,
+      "first_alarm_after_onset_hours": 0.0,
+      "alarms_in_hours_with_redteam": 3
+    },
+    "n|global|LEVEL": {
+      "threshold": 2.4798372651275713,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.07174887892376682,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 185.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "n|global|CUSUM": {
+      "threshold": 17.33381264630225,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.03587443946188341,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 283.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "n|global|RATE": {
+      "threshold": 3.5064475659964955,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.07174887892376682,
+      "alarms_per_day_precampaign": 0.5714285714285714,
+      "first_alarm_after_onset_hours": 185.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "n|diurnal|LEVEL": {
+      "threshold": 1.6413975376963208,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.25112107623318386,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 186.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "n|diurnal|CUSUM": {
+      "threshold": 23.44131514473702,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.10762331838565023,
+      "alarms_per_day_precampaign": 0.0,
+      "first_alarm_after_onset_hours": 186.0,
+      "alarms_in_hours_with_redteam": 1
+    },
+    "n|diurnal|RATE": {
+      "threshold": 3.667939547358401,
+      "alarms_per_day_calibration": 0.07407407407407407,
+      "alarms_per_day_campaign": 0.10762331838565023,
+      "alarms_per_day_precampaign": 0.5714285714285714,
+      "first_alarm_after_onset_hours": 186.0,
+      "alarms_in_hours_with_redteam": 1
+    }
+  },
+  "per_host": {
+    "k_dst": {
+      "auc_campaign_days": 0.7211022163508491,
+      "ap_campaign_days": 0.0032136098334365117,
+      "positives": 29,
+      "host_days": 294046,
+      "recall_at_1_alerts_per_day": 0.0,
+      "alerts_per_day_campaign_at_1": 1.6551724137931034,
+      "first_detected_day_at_1": null,
+      "recall_at_10_alerts_per_day": 0.13793103448275862,
+      "alerts_per_day_campaign_at_10": 9.89655172413793,
+      "first_detected_day_at_10": 8.0
+    },
+    "new_dst": {
+      "auc_campaign_days": 0.7724421986859075,
+      "ap_campaign_days": 0.009200235683262507,
+      "positives": 29,
+      "host_days": 294046,
+      "recall_at_1_alerts_per_day": 0.06896551724137931,
+      "alerts_per_day_campaign_at_1": 1.9310344827586208,
+      "first_detected_day_at_1": 8.0,
+      "recall_at_10_alerts_per_day": 0.1724137931034483,
+      "alerts_per_day_campaign_at_10": 30.689655172413794,
+      "first_detected_day_at_10": 5.0
+    },
+    "H_dst": {
+      "auc_campaign_days": 0.5741365177922506,
+      "ap_campaign_days": 0.008893134796738287,
+      "positives": 29,
+      "host_days": 294046,
+      "recall_at_1_alerts_per_day": 0.0,
+      "alerts_per_day_campaign_at_1": 1.3793103448275863,
+      "first_detected_day_at_1": null,
+      "recall_at_10_alerts_per_day": 0.2413793103448276,
+      "alerts_per_day_campaign_at_10": 10.862068965517242,
+      "first_detected_day_at_10": 8.0
+    },
+    "n": {
+      "auc_campaign_days": 0.11965652232400824,
+      "ap_campaign_days": 5.461589453895834e-05,
+      "positives": 29,
+      "host_days": 294046,
+      "recall_at_1_alerts_per_day": 0.0,
+      "alerts_per_day_campaign_at_1": 0.7931034482758621,
+      "first_detected_day_at_1": null,
+      "recall_at_10_alerts_per_day": 0.0,
+      "alerts_per_day_campaign_at_10": 9.517241379310345,
+      "first_detected_day_at_10": null
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "window_events": 500,
+  "entropy_4_measures_ms": {
+    "median": 0.09010000212583691,
+    "p95": 0.3699050073919352
+  },
+  "rf_predict_single_ms": {
+    "median": 30.10050000011688,
+    "p95": 60.74344499720611
+  },
+  "rf_predict_per_window_batched_1000_ms": 0.032776849999208935,
+  "ekf_step_ms": {
+    "median": 0.3578584999922896,
+    "p95": 0.5964865333371563
+  },
+  "total_median_ms_single": 30.548458502235007,
+  "total_median_ms_batched": 0.4807353521173354,
+  "rf_pickle_MB": 4.937365,
+  "hardware": {
+    "machine": "AMD64",
+    "processor": "Intel Core i7-1255U, 16 GB RAM (laptop)",
+    "rf_n_jobs": 1,
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "sklearn": "1.9.0"
+  }
+}
