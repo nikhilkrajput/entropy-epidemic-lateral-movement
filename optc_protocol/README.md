@@ -26,3 +26,11 @@ This folder freezes the evaluation of per-host lateral-movement scores on the DA
 ## Labels
 The labels and the preprocessing conventions come from LMDEval (https://github.com/cl-anssi/LMDEval, commit 2b95a68),
 which is not redistributed here.
+
+## Results
+`results/` holds the outputs of the evaluation, run on 31 October 2026 with the code at tag `optc-prereg-v1`, unchanged:
+- `optc_budget.json` holds every pre-registered analysis (recall, intervals, sources, delay, coverage and precision at
+  b = 1, 10, 100), the threshold rule, and the H1–H3 outcomes. It also records the SHA-256 of both protocol files, as
+  checked at run time.
+- `optc_build_summary.json` holds the record counts after filtering, deduplication and host mapping, and the label counts.
+- `optc_eval_hour_primary.csv.gz` holds the per-host-hour scores and labels of the primary analysis.

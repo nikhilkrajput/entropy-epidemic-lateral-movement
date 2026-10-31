@@ -1,0 +1,5670 @@
+{
+  "protocol_sha256": {
+    "PREREGISTRATION.md": "81184c4360410de65cb179efe288f92af8095ec412d3dc4ce0b872ff9f481df6",
+    "PREREGISTRATION_AMENDMENT_1.md": "dfc5f6b68f6baf299bc46e5ec9a9da0951c3b68797b6411fd0b06e2bf290a5aa"
+  },
+  "a": 100000.0,
+  "eval_days": [
+    18162,
+    18164
+  ],
+  "build": {
+    "files": 124,
+    "records_internal_flow_start": 5772217,
+    "after_dedup_and_self_loops": 5771126,
+    "self_loops_dropped": 8,
+    "address_conflicts": 0,
+    "K_hosts": 869,
+    "labelled_lm_flows": 249,
+    "labelled_rt_flows": 1359,
+    "labelled_lm_flows_kept_rule": 244,
+    "reporting_hosts": [
+      "SysClient0001",
+      "SysClient0002",
+      "SysClient0003",
+      "SysClient0004",
+      "SysClient0005",
+      "SysClient0006",
+      "SysClient0007",
+      "SysClient0008",
+      "SysClient0009",
+      "SysClient0010",
+      "SysClient0011",
+      "SysClient0012",
+      "SysClient0013",
+      "SysClient0014",
+      "SysClient0015",
+      "SysClient0016",
+      "SysClient0017",
+      "SysClient0018",
+      "SysClient0019",
+      "SysClient0020",
+      "SysClient0021",
+      "SysClient0022",
+      "SysClient0023",
+      "SysClient0024",
+      "SysClient0025",
+      "SysClient0051",
+      "SysClient0052",
+      "SysClient0053",
+      "SysClient0054",
+      "SysClient0055",
+      "SysClient0056",
+      "SysClient0057",
+      "SysClient0058",
+      "SysClient0059",
+      "SysClient0060",
+      "SysClient0061",
+      "SysClient0062",
+      "SysClient0063",
+      "SysClient0064",
+      "SysClient0065",
+      "SysClient0066",
+      "SysClient0067",
+      "SysClient0068",
+      "SysClient0069",
+      "SysClient0070",
+      "SysClient0071",
+      "SysClient0072",
+      "SysClient0073",
+      "SysClient0074",
+      "SysClient0075",
+      "SysClient0101",
+      "SysClient0102",
+      "SysClient0103",
+      "SysClient0104",
+      "SysClient0105",
+      "SysClient0106",
+      "SysClient0107",
+      "SysClient0108",
+      "SysClient0109",
+      "SysClient0110",
+      "SysClient0111",
+      "SysClient0112",
+      "SysClient0113",
+      "SysClient0114",
+      "SysClient0115",
+      "SysClient0116",
+      "SysClient0117",
+      "SysClient0118",
+      "SysClient0119",
+      "SysClient0120",
+      "SysClient0121",
+      "SysClient0122",
+      "SysClient0123",
+      "SysClient0124",
+      "SysClient0125",
+      "SysClient0151",
+      "SysClient0152",
+      "SysClient0153",
+      "SysClient0154",
+      "SysClient0155",
+      "SysClient0156",
+      "SysClient0157",
+      "SysClient0158",
+      "SysClient0159",
+      "SysClient0160",
+      "SysClient0161",
+      "SysClient0162",
+      "SysClient0163",
+      "SysClient0164",
+      "SysClient0165",
+      "SysClient0166",
+      "SysClient0167",
+      "SysClient0168",
+      "SysClient0169",
+      "SysClient0170",
+      "SysClient0171",
+      "SysClient0172",
+      "SysClient0173",
+      "SysClient0174",
+      "SysClient0175",
+      "SysClient0201",
+      "SysClient0202",
+      "SysClient0203",
+      "SysClient0204",
+      "SysClient0205",
+      "SysClient0206",
+      "SysClient0207",
+      "SysClient0208",
+      "SysClient0209",
+      "SysClient0210",
+      "SysClient0211",
+      "SysClient0212",
+      "SysClient0213",
+      "SysClient0214",
+      "SysClient0215",
+      "SysClient0216",
+      "SysClient0217",
+      "SysClient0218",
+      "SysClient0219",
+      "SysClient0220",
+      "SysClient0221",
+      "SysClient0222",
+      "SysClient0223",
+      "SysClient0224",
+      "SysClient0225",
+      "SysClient0251",
+      "SysClient0252",
+      "SysClient0253",
+      "SysClient0254",
+      "SysClient0255",
+      "SysClient0256",
+      "SysClient0257",
+      "SysClient0258",
+      "SysClient0259",
+      "SysClient0260",
+      "SysClient0261",
+      "SysClient0262",
+      "SysClient0263",
+      "SysClient0264",
+      "SysClient0265",
+      "SysClient0266",
+      "SysClient0267",
+      "SysClient0268",
+      "SysClient0269",
+      "SysClient0270",
+      "SysClient0271",
+      "SysClient0272",
+      "SysClient0273",
+      "SysClient0274",
+      "SysClient0275",
+      "SysClient0301",
+      "SysClient0302",
+      "SysClient0303",
+      "SysClient0304",
+      "SysClient0305",
+      "SysClient0306",
+      "SysClient0307",
+      "SysClient0308",
+      "SysClient0309",
+      "SysClient0310",
+      "SysClient0311",
+      "SysClient0312",
+      "SysClient0313",
+      "SysClient0314",
+      "SysClient0315",
+      "SysClient0316",
+      "SysClient0317",
+      "SysClient0318",
+      "SysClient0319",
+      "SysClient0320",
+      "SysClient0321",
+      "SysClient0322",
+      "SysClient0323",
+      "SysClient0324",
+      "SysClient0325",
+      "SysClient0351",
+      "SysClient0352",
+      "SysClient0353",
+      "SysClient0354",
+      "SysClient0355",
+      "SysClient0356",
+      "SysClient0357",
+      "SysClient0358",
+      "SysClient0359",
+      "SysClient0360",
+      "SysClient0361",
+      "SysClient0362",
+      "SysClient0363",
+      "SysClient0364",
+      "SysClient0365",
+      "SysClient0366",
+      "SysClient0367",
+      "SysClient0368",
+      "SysClient0369",
+      "SysClient0370",
+      "SysClient0371",
+      "SysClient0372",
+      "SysClient0373",
+      "SysClient0374",
+      "SysClient0375",
+      "SysClient0401",
+      "SysClient0402",
+      "SysClient0403",
+      "SysClient0404",
+      "SysClient0405",
+      "SysClient0406",
+      "SysClient0407",
+      "SysClient0408",
+      "SysClient0409",
+      "SysClient0410",
+      "SysClient0411",
+      "SysClient0412",
+      "SysClient0413",
+      "SysClient0414",
+      "SysClient0415",
+      "SysClient0416",
+      "SysClient0417",
+      "SysClient0418",
+      "SysClient0419",
+      "SysClient0420",
+      "SysClient0421",
+      "SysClient0422",
+      "SysClient0423",
+      "SysClient0424",
+      "SysClient0425",
+      "SysClient0451",
+      "SysClient0452",
+      "SysClient0453",
+      "SysClient0454",
+      "SysClient0455",
+      "SysClient0456",
+      "SysClient0457",
+      "SysClient0458",
+      "SysClient0459",
+      "SysClient0460",
+      "SysClient0461",
+      "SysClient0462",
+      "SysClient0463",
+      "SysClient0464",
+      "SysClient0465",
+      "SysClient0466",
+      "SysClient0467",
+      "SysClient0468",
+      "SysClient0469",
+      "SysClient0470",
+      "SysClient0471",
+      "SysClient0472",
+      "SysClient0473",
+      "SysClient0474",
+      "SysClient0475",
+      "SysClient0501",
+      "SysClient0502",
+      "SysClient0503",
+      "SysClient0504",
+      "SysClient0505",
+      "SysClient0506",
+      "SysClient0507",
+      "SysClient0508",
+      "SysClient0509",
+      "SysClient0510",
+      "SysClient0511",
+      "SysClient0512",
+      "SysClient0513",
+      "SysClient0514",
+      "SysClient0515",
+      "SysClient0516",
+      "SysClient0517",
+      "SysClient0518",
+      "SysClient0519",
+      "SysClient0520",
+      "SysClient0521",
+      "SysClient0522",
+      "SysClient0523",
+      "SysClient0524",
+      "SysClient0525",
+      "SysClient0551",
+      "SysClient0552",
+      "SysClient0553",
+      "SysClient0554",
+      "SysClient0555",
+      "SysClient0556",
+      "SysClient0557",
+      "SysClient0558",
+      "SysClient0559",
+      "SysClient0560",
+      "SysClient0561",
+      "SysClient0562",
+      "SysClient0563",
+      "SysClient0564",
+      "SysClient0565",
+      "SysClient0566",
+      "SysClient0567",
+      "SysClient0568",
+      "SysClient0569",
+      "SysClient0570",
+      "SysClient0571",
+      "SysClient0572",
+      "SysClient0573",
+      "SysClient0574",
+      "SysClient0575",
+      "SysClient0601",
+      "SysClient0602",
+      "SysClient0603",
+      "SysClient0604",
+      "SysClient0605",
+      "SysClient0606",
+      "SysClient0607",
+      "SysClient0608",
+      "SysClient0609",
+      "SysClient0610",
+      "SysClient0611",
+      "SysClient0612",
+      "SysClient0613",
+      "SysClient0614",
+      "SysClient0615",
+      "SysClient0616",
+      "SysClient0617",
+      "SysClient0618",
+      "SysClient0619",
+      "SysClient0620",
+      "SysClient0621",
+      "SysClient0622",
+      "SysClient0623",
+      "SysClient0624",
+      "SysClient0625",
+      "SysClient0651",
+      "SysClient0652",
+      "SysClient0653",
+      "SysClient0654",
+      "SysClient0655",
+      "SysClient0656",
+      "SysClient0657",
+      "SysClient0658",
+      "SysClient0659",
+      "SysClient0660",
+      "SysClient0661",
+      "SysClient0662",
+      "SysClient0663",
+      "SysClient0664",
+      "SysClient0665",
+      "SysClient0666",
+      "SysClient0667",
+      "SysClient0668",
+      "SysClient0669",
+      "SysClient0670",
+      "SysClient0671",
+      "SysClient0672",
+      "SysClient0673",
+      "SysClient0674",
+      "SysClient0675",
+      "SysClient0701",
+      "SysClient0702",
+      "SysClient0703",
+      "SysClient0704",
+      "SysClient0705",
+      "SysClient0706",
+      "SysClient0707",
+      "SysClient0708",
+      "SysClient0709",
+      "SysClient0710",
+      "SysClient0711",
+      "SysClient0712",
+      "SysClient0713",
+      "SysClient0714",
+      "SysClient0715",
+      "SysClient0716",
+      "SysClient0717",
+      "SysClient0718",
+      "SysClient0719",
+      "SysClient0720",
+      "SysClient0721",
+      "SysClient0722",
+      "SysClient0723",
+      "SysClient0724",
+      "SysClient0725",
+      "SysClient0751",
+      "SysClient0752",
+      "SysClient0753",
+      "SysClient0754",
+      "SysClient0755",
+      "SysClient0756",
+      "SysClient0757",
+      "SysClient0758",
+      "SysClient0759",
+      "SysClient0760",
+      "SysClient0761",
+      "SysClient0762",
+      "SysClient0763",
+      "SysClient0764",
+      "SysClient0765",
+      "SysClient0766",
+      "SysClient0767",
+      "SysClient0768",
+      "SysClient0769",
+      "SysClient0770",
+      "SysClient0771",
+      "SysClient0772",
+      "SysClient0773",
+      "SysClient0774",
+      "SysClient0775",
+      "SysClient0801",
+      "SysClient0802",
+      "SysClient0803",
+      "SysClient0804",
+      "SysClient0805",
+      "SysClient0806",
+      "SysClient0807",
+      "SysClient0808",
+      "SysClient0809",
+      "SysClient0810",
+      "SysClient0811",
+      "SysClient0812",
+      "SysClient0813",
+      "SysClient0814",
+      "SysClient0815",
+      "SysClient0816",
+      "SysClient0817",
+      "SysClient0818",
+      "SysClient0819",
+      "SysClient0820",
+      "SysClient0821",
+      "SysClient0822",
+      "SysClient0823",
+      "SysClient0824",
+      "SysClient0825",
+      "SysClient0851",
+      "SysClient0852",
+      "SysClient0853",
+      "SysClient0854",
+      "SysClient0855",
+      "SysClient0856",
+      "SysClient0857",
+      "SysClient0858",
+      "SysClient0859",
+      "SysClient0860",
+      "SysClient0861",
+      "SysClient0862",
+      "SysClient0863",
+      "SysClient0864",
+      "SysClient0865",
+      "SysClient0866",
+      "SysClient0867",
+      "SysClient0868",
+      "SysClient0869",
+      "SysClient0870",
+      "SysClient0871",
+      "SysClient0872",
+      "SysClient0873",
+      "SysClient0874",
+      "SysClient0875",
+      "SysClient0901",
+      "SysClient0902",
+      "SysClient0903",
+      "SysClient0904",
+      "SysClient0905",
+      "SysClient0906",
+      "SysClient0907",
+      "SysClient0908",
+      "SysClient0909",
+      "SysClient0910",
+      "SysClient0911",
+      "SysClient0912",
+      "SysClient0913",
+      "SysClient0914",
+      "SysClient0915",
+      "SysClient0916",
+      "SysClient0917",
+      "SysClient0918",
+      "SysClient0919",
+      "SysClient0920",
+      "SysClient0921",
+      "SysClient0922",
+      "SysClient0923",
+      "SysClient0924",
+      "SysClient0925",
+      "SysClient0951",
+      "SysClient0952",
+      "SysClient0953",
+      "SysClient0954",
+      "SysClient0955",
+      "SysClient0956",
+      "SysClient0957",
+      "SysClient0958",
+      "SysClient0959",
+      "SysClient0960",
+      "SysClient0961",
+      "SysClient0962",
+      "SysClient0963",
+      "SysClient0964",
+      "SysClient0965",
+      "SysClient0966",
+      "SysClient0967",
+      "SysClient0968",
+      "SysClient0969",
+      "SysClient0970",
+      "SysClient0971",
+      "SysClient0972",
+      "SysClient0973",
+      "SysClient0974",
+      "SysClient0975"
+    ],
+    "days": [
+      18158,
+      18161,
+      18162,
+      18163,
+      18164
+    ],
+    "host_hours": 21936,
+    "positive_hours_lm": 10,
+    "positive_hours_rt": 22,
+    "host_days": 2167,
+    "positive_days_lm": 7,
+    "positive_days_rt": 12,
+    "lm_sources": [
+      "DC1",
+      "SysClient0201",
+      "SysClient0402",
+      "SysClient0501",
+      "SysClient0660",
+      "SysClient0974"
+    ]
+  },
+  "primary_hour_lm": {
+    "host_days": 18759,
+    "positives": 10,
+    "sources": [
+      69,
+      219,
+      288,
+      379,
+      521,
+      535
+    ],
+    "positives_per_source": {
+      "69": 1,
+      "219": 1,
+      "288": 2,
+      "379": 1,
+      "521": 2,
+      "535": 3
+    },
+    "days": 3,
+    "median_host_days_per_day": 7272.0,
+    "E": {
+      "b1": {
+        "recall": 0.2,
+        "recall_ci95": [
+          0.038461538461538464,
+          0.4375
+        ],
+        "recall_per_source": {
+          "69": 0.5,
+          "219": 0.5,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.2,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.2,
+          0.7777777777777778
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.5,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.6,
+        "recall_ci95": [
+          0.2222222222222222,
+          0.9166666666666666
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.6,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.02,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "E_ainf": {
+      "b1": {
+        "recall": 0.2,
+        "recall_ci95": [
+          0.038461538461538464,
+          0.4375
+        ],
+        "recall_per_source": {
+          "69": 0.5,
+          "219": 0.5,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.2,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.2,
+          0.7777777777777778
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.5,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.7,
+        "recall_ci95": [
+          0.25,
+          1.0
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.7,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.023333333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "X_host": {
+      "b1": {
+        "recall": 0.1,
+        "recall_ci95": [
+          0.0,
+          0.23076923076923078
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.1,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.3,
+        "recall_ci95": [
+          0.0,
+          0.5384615384615384
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.3,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.1,
+        "sources_detected": [
+          288,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.1,
+          0.8461538461538461
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.5,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.016666666666666666,
+        "sources_detected": [
+          69,
+          288,
+          535
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "KL_host": {
+      "b1": {
+        "recall": 0.1,
+        "recall_ci95": [
+          0.0,
+          0.23076923076923078
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.1,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.2,
+        "recall_ci95": [
+          0.0,
+          0.46153846153846156
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.2,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.06666666666666667,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.2,
+        "recall_ci95": [
+          0.0,
+          0.46153846153846156
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.2,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.006666666666666667,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "new_dst": {
+      "b1": {
+        "recall": 0.2,
+        "recall_ci95": [
+          0.0,
+          0.5
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.2,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.40476190476190477,
+        "recall_ci95": [
+          0.17460317460317462,
+          0.7142857142857143
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.34920634920634924
+        },
+        "recall_with_history": 0.40476190476190477,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.1349206349206349,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.8,
+        "recall_ci95": [
+          0.5,
+          1.0
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.5,
+          "535": 1.0
+        },
+        "recall_with_history": 0.8,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.02666666666666667,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          521,
+          535
+        ],
+        "n_sources_detected": 5,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "SysClient0974",
+          "DC1"
+        ]
+      }
+    },
+    "H_today": {
+      "b1": {
+        "recall": 0.2,
+        "recall_ci95": [
+          0.0,
+          0.5
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.2,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.4,
+        "recall_ci95": [
+          0.16666666666666666,
+          0.7142857142857143
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.4,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.4,
+        "recall_ci95": [
+          0.16666666666666666,
+          0.7142857142857143
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.4,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.013333333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "k_dst": {
+      "b1": {
+        "recall": 0.2,
+        "recall_ci95": [
+          0.0,
+          0.5
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.2,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.325,
+        "recall_ci95": [
+          0.1111111111111111,
+          0.7142857142857143
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.08333333333333333
+        },
+        "recall_with_history": 0.325,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.10833333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b100": {
+        "recall": 0.4,
+        "recall_ci95": [
+          0.16666666666666666,
+          0.7142857142857143
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.4,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.013333333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "powell": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.4,
+        "recall_ci95": [
+          0.0,
+          0.75
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.4,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          288,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.4,
+        "recall_ci95": [
+          0.0,
+          0.75
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.4,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.013333333333333334,
+        "sources_detected": [
+          288,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "host_age": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b100": {
+        "recall": 0.2,
+        "recall_ci95": [
+          0.0,
+          0.46153846153846156
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.2,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.006666666666666667,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "neg_log_hist": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b100": {
+        "recall": 0.3,
+        "recall_ci95": [
+          0.0,
+          0.6923076923076923
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.3,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.01,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "new_host_k": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.0006602475928473178,
+        "recall_ci95": [
+          0.0002751031636863824,
+          0.0009170105456212745
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0011004126547455295,
+          "379": 0.0,
+          "521": 0.0011004126547455295,
+          "535": 0.0007336084364970197
+        },
+        "recall_with_history": 0.0006602475928473178,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.00022008253094910591,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b100": {
+        "recall": 0.015726742689798998,
+        "recall_ci95": [
+          0.014416174882785347,
+          0.017692594400319474
+        ],
+        "recall_per_source": {
+          "69": 0.019096774193548386,
+          "219": 0.019096774193548386,
+          "288": 0.013480055020632738,
+          "379": 0.019096774193548386,
+          "521": 0.013480055020632738,
+          "535": 0.015352294744937954
+        },
+        "recall_with_history": 0.015726742689798998,
+        "recall_without_history": null,
+        "positives_with_history": 10,
+        "precision": 0.0005242247563266333,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      }
+    },
+    "within_day_auc": {
+      "E": 0.8751480078937544,
+      "E_ainf": 0.8780708304442904,
+      "X_host": 0.8118859672515867,
+      "KL_host": 0.7304149554642915,
+      "new_dst": 0.8807776414742121,
+      "H_today": 0.7525788042028908,
+      "k_dst": 0.8017147581204331,
+      "powell": 0.940276814763454,
+      "host_age": 0.6801482745746439,
+      "neg_log_hist": 0.6219238359379167,
+      "new_host_k": 0.281401674755987
+    },
+    "source_names": {
+      "69": "SysClient0201",
+      "219": "SysClient0402",
+      "288": "SysClient0501",
+      "379": "SysClient0660",
+      "521": "SysClient0974",
+      "535": "DC1"
+    }
+  },
+  "secondary_hour_rt": {
+    "host_days": 18759,
+    "positives": 22,
+    "sources": [
+      69,
+      138,
+      190,
+      219,
+      288,
+      379,
+      447,
+      521,
+      535
+    ],
+    "positives_per_source": {
+      "69": 1,
+      "138": 5,
+      "190": 2,
+      "219": 1,
+      "288": 5,
+      "379": 2,
+      "447": 1,
+      "521": 2,
+      "535": 3
+    },
+    "days": 3,
+    "median_host_days_per_day": 7272.0,
+    "E": {
+      "b1": {
+        "recall": 0.09090909090909091,
+        "recall_ci95": [
+          0.0,
+          0.1956521739130435
+        ],
+        "recall_per_source": {
+          "69": 0.5,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.5,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.22727272727272727,
+        "recall_ci95": [
+          0.062408088235294125,
+          0.478804347826084
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.22727272727272727,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.2727272727272727,
+        "recall_ci95": [
+          0.062408088235294125,
+          0.6111111111111112
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.2727272727272727,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.02,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "E_ainf": {
+      "b1": {
+        "recall": 0.09090909090909091,
+        "recall_ci95": [
+          0.0,
+          0.1956521739130435
+        ],
+        "recall_per_source": {
+          "69": 0.5,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.5,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.22727272727272727,
+        "recall_ci95": [
+          0.062408088235294125,
+          0.478804347826084
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.22727272727272727,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.3181818181818182,
+        "recall_ci95": [
+          0.07992307692307693,
+          0.625
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.4,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.3181818181818182,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.023333333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "X_host": {
+      "b1": {
+        "recall": 0.045454545454545456,
+        "recall_ci95": [
+          0.0,
+          0.14285714285714285
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.045454545454545456,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.13636363636363635,
+        "recall_ci95": [
+          0.0,
+          0.3181818181818182
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.13636363636363635,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.1,
+        "sources_detected": [
+          288,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          1.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.22727272727272727,
+        "recall_ci95": [
+          0.03571428571428571,
+          0.5295098039215681
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.22727272727272727,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.016666666666666666,
+        "sources_detected": [
+          69,
+          288,
+          535
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "KL_host": {
+      "b1": {
+        "recall": 0.045454545454545456,
+        "recall_ci95": [
+          0.0,
+          0.14285714285714285
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.045454545454545456,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.09090909090909091,
+        "recall_ci95": [
+          0.0,
+          0.2857142857142857
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.06666666666666667,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.13636363636363635,
+        "recall_ci95": [
+          0.0,
+          0.3333333333333333
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.2,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.13636363636363635,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.01,
+        "sources_detected": [
+          138,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0051",
+          "DC1"
+        ]
+      }
+    },
+    "new_dst": {
+      "b1": {
+        "recall": 0.09090909090909091,
+        "recall_ci95": [
+          0.0,
+          0.23076923076923078
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.18398268398268397,
+        "recall_ci95": [
+          0.05,
+          0.3882783882783883
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.34920634920634924
+        },
+        "recall_with_history": 0.18398268398268397,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.1349206349206349,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.39012987012987016,
+        "recall_ci95": [
+          0.17585978835978833,
+          0.6882005494505489
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.05733333333333333,
+          "190": 0.14333333333333334,
+          "219": 1.0,
+          "288": 0.4,
+          "379": 0.0,
+          "447": 0.009523809523809525,
+          "521": 0.5,
+          "535": 1.0
+        },
+        "recall_with_history": 0.39012987012987016,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.02860952380952381,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          521,
+          535
+        ],
+        "n_sources_detected": 5,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "SysClient0974",
+          "DC1"
+        ]
+      }
+    },
+    "H_today": {
+      "b1": {
+        "recall": 0.09090909090909091,
+        "recall_ci95": [
+          0.0,
+          0.2222222222222222
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.18181818181818182,
+        "recall_ci95": [
+          0.05,
+          0.38461538461538464
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.18181818181818182,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.18181818181818182,
+        "recall_ci95": [
+          0.05,
+          0.38461538461538464
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.18181818181818182,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.013333333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "k_dst": {
+      "b1": {
+        "recall": 0.09090909090909091,
+        "recall_ci95": [
+          0.0,
+          0.23076923076923078
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.14772727272727273,
+        "recall_ci95": [
+          0.024970238095238097,
+          0.3333333333333333
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.08333333333333333
+        },
+        "recall_with_history": 0.14772727272727273,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.10833333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b100": {
+        "recall": 0.22727272727272727,
+        "recall_ci95": [
+          0.10526315789473684,
+          0.4
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.2,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.22727272727272727,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.016666666666666666,
+        "sources_detected": [
+          69,
+          138,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 5,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0051",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "powell": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.18181818181818182,
+        "recall_ci95": [
+          0.0,
+          0.45464015151515097
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.18181818181818182,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          288,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.18181818181818182,
+        "recall_ci95": [
+          0.0,
+          0.45464015151515097
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.2,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.18181818181818182,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.013333333333333334,
+        "sources_detected": [
+          288,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "host_age": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b100": {
+        "recall": 0.09090909090909091,
+        "recall_ci95": [
+          0.0,
+          0.2857142857142857
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.006666666666666667,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "neg_log_hist": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b100": {
+        "recall": 0.13636363636363635,
+        "recall_ci95": [
+          0.0,
+          0.42857142857142855
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.13636363636363635,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.01,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05592347314201619,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "new_host_k": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.0008316236584764113,
+        "recall_ci95": [
+          0.0005040861611465831,
+          0.0010420552400624194
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0011865524060646012,
+          "190": 0.0011865524060646012,
+          "219": 0.0,
+          "288": 0.0008975580740602379,
+          "379": 0.0,
+          "447": 0.0011004126547455295,
+          "521": 0.0011004126547455295,
+          "535": 0.0007336084364970197
+        },
+        "recall_with_history": 0.0008316236584764113,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.0006098573495493683,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b100": {
+        "recall": 0.01485625895727442,
+        "recall_ci95": [
+          0.013784939805571035,
+          0.016524387912127105
+        ],
+        "recall_per_source": {
+          "69": 0.019096774193548386,
+          "138": 0.013052076466710614,
+          "190": 0.013052076466710614,
+          "219": 0.019096774193548386,
+          "288": 0.014517803144431443,
+          "379": 0.019096774193548386,
+          "447": 0.013480055020632738,
+          "521": 0.013480055020632738,
+          "535": 0.015352294744937954
+        },
+        "recall_with_history": 0.01485625895727442,
+        "recall_without_history": null,
+        "positives_with_history": 22,
+        "precision": 0.0010894589902001241,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      }
+    },
+    "within_day_auc": {
+      "E": 0.7367168509560568,
+      "E_ainf": 0.7380571741862236,
+      "X_host": 0.7098752104489416,
+      "KL_host": 0.6505055626446458,
+      "new_dst": 0.7399020896912768,
+      "H_today": 0.707841072840806,
+      "k_dst": 0.7502316757800561,
+      "powell": 0.8180920589790739,
+      "host_age": 0.4816915485645805,
+      "neg_log_hist": 0.5799463385523054,
+      "new_host_k": 0.4632618009092365
+    },
+    "source_names": {
+      "69": "SysClient0201",
+      "138": "SysClient0051",
+      "190": "SysClient0351",
+      "219": "SysClient0402",
+      "288": "SysClient0501",
+      "379": "SysClient0660",
+      "447": "SysClient0811",
+      "521": "SysClient0974",
+      "535": "DC1"
+    }
+  },
+  "sensitivity_hour_lm_kept_rule": {
+    "host_days": 18759,
+    "positives": 8,
+    "sources": [
+      69,
+      219,
+      288,
+      379,
+      535
+    ],
+    "positives_per_source": {
+      "69": 1,
+      "219": 1,
+      "288": 2,
+      "379": 1,
+      "535": 3
+    },
+    "days": 3,
+    "median_host_days_per_day": 7272.0,
+    "E": {
+      "b1": {
+        "recall": 0.25,
+        "recall_ci95": [
+          0.05530303030303031,
+          0.5
+        ],
+        "recall_per_source": {
+          "69": 0.5,
+          "219": 0.5,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.25,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.625,
+        "recall_ci95": [
+          0.375,
+          0.8571428571428571
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.625,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.75,
+        "recall_ci95": [
+          0.4,
+          1.0
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.75,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.02,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "E_ainf": {
+      "b1": {
+        "recall": 0.25,
+        "recall_ci95": [
+          0.05530303030303031,
+          0.5
+        ],
+        "recall_per_source": {
+          "69": 0.5,
+          "219": 0.5,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.25,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.625,
+        "recall_ci95": [
+          0.375,
+          0.8571428571428571
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.625,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.875,
+        "recall_ci95": [
+          0.5,
+          1.0
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.875,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.023333333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "X_host": {
+      "b1": {
+        "recall": 0.125,
+        "recall_ci95": [
+          0.0,
+          0.2727272727272727
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.125,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.375,
+        "recall_ci95": [
+          0.0,
+          0.5833333333333334
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.375,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.1,
+        "sources_detected": [
+          288,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.625,
+        "recall_ci95": [
+          0.16666666666666666,
+          0.9166666666666666
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.625,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.016666666666666666,
+        "sources_detected": [
+          69,
+          288,
+          535
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "KL_host": {
+      "b1": {
+        "recall": 0.125,
+        "recall_ci95": [
+          0.0,
+          0.2727272727272727
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.125,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.25,
+        "recall_ci95": [
+          0.0,
+          0.5454545454545454
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.25,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.06666666666666667,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.25,
+        "recall_ci95": [
+          0.0,
+          0.5454545454545454
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.25,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.006666666666666667,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "new_dst": {
+      "b1": {
+        "recall": 0.25,
+        "recall_ci95": [
+          0.0,
+          0.6
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.25,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.5059523809523809,
+        "recall_ci95": [
+          0.2925170068027211,
+          0.8333333333333334
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.34920634920634924
+        },
+        "recall_with_history": 0.5059523809523809,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.1349206349206349,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.875,
+        "recall_ci95": [
+          0.5,
+          1.0
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.875,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.023333333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "H_today": {
+      "b1": {
+        "recall": 0.25,
+        "recall_ci95": [
+          0.0,
+          0.6
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.25,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.2857142857142857,
+          0.8333333333333334
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.5,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.2857142857142857,
+          0.8333333333333334
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.5,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.013333333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "k_dst": {
+      "b1": {
+        "recall": 0.25,
+        "recall_ci95": [
+          0.0,
+          0.6
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.25,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.40625,
+        "recall_ci95": [
+          0.15,
+          0.8333333333333334
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.08333333333333333
+        },
+        "recall_with_history": 0.40625,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.10833333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b100": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.2857142857142857,
+          0.8333333333333334
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 0.3333333333333333
+        },
+        "recall_with_history": 0.5,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.013333333333333334,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "powell": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.0,
+          0.8333333333333334
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.5,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          288,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0501",
+          "DC1"
+        ]
+      },
+      "b100": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.0,
+          0.8333333333333334
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.5,
+          "379": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.5,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.013333333333333334,
+        "sources_detected": [
+          288,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "host_age": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b100": {
+        "recall": 0.25,
+        "recall_ci95": [
+          0.0,
+          0.5454545454545454
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.6666666666666666
+        },
+        "recall_with_history": 0.25,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.006666666666666667,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "neg_log_hist": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b100": {
+        "recall": 0.375,
+        "recall_ci95": [
+          0.0,
+          0.8181818181818182
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.375,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.01,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.3114754098360656,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "new_host_k": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.0005502063273727648,
+        "recall_ci95": [
+          0.0,
+          0.0008803301237964237
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0011004126547455295,
+          "379": 0.0,
+          "535": 0.0007336084364970197
+        },
+        "recall_with_history": 0.0005502063273727648,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.00014672168729940393,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b100": {
+        "recall": 0.016288414607090563,
+        "recall_ci95": [
+          0.014603398855215869,
+          0.019096774193548386
+        ],
+        "recall_per_source": {
+          "69": 0.019096774193548386,
+          "219": 0.019096774193548386,
+          "288": 0.013480055020632738,
+          "379": 0.019096774193548386,
+          "535": 0.015352294744937954
+        },
+        "recall_with_history": 0.016288414607090563,
+        "recall_without_history": null,
+        "positives_with_history": 8,
+        "precision": 0.00043435772285574836,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      }
+    },
+    "within_day_auc": {
+      "E": 0.8804663751266599,
+      "E_ainf": 0.8841661778038505,
+      "X_host": 0.829732414271239,
+      "KL_host": 0.785588101967895,
+      "new_dst": 0.8846194869606955,
+      "H_today": 0.7360207455602368,
+      "k_dst": 0.7784718148365419,
+      "powell": 0.940146525518639,
+      "host_age": 0.677643858994187,
+      "neg_log_hist": 0.6844368300357313,
+      "new_host_k": 0.2517065756492987
+    },
+    "source_names": {
+      "69": "SysClient0201",
+      "219": "SysClient0402",
+      "288": "SysClient0501",
+      "379": "SysClient0660",
+      "535": "DC1"
+    }
+  },
+  "secondary_day_lm": {
+    "host_days": 1630,
+    "positives": 7,
+    "sources": [
+      69,
+      219,
+      288,
+      379,
+      521,
+      535
+    ],
+    "positives_per_source": {
+      "69": 1,
+      "219": 1,
+      "288": 1,
+      "379": 1,
+      "521": 1,
+      "535": 2
+    },
+    "days": 3,
+    "median_host_days_per_day": 545.0,
+    "E": {
+      "b1": {
+        "recall": 0.2857142857142857,
+        "recall_ci95": [
+          0.0,
+          0.6666666666666666
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 0.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.3333333333333333,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.7142857142857143,
+        "recall_ci95": [
+          0.3333333333333333,
+          1.0
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.6666666666666666,
+        "recall_without_history": 1.0,
+        "positives_with_history": 6,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "E_ainf": {
+      "b1": {
+        "recall": 0.2857142857142857,
+        "recall_ci95": [
+          0.0,
+          0.6666666666666666
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 0.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.3333333333333333,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.7142857142857143,
+        "recall_ci95": [
+          0.3333333333333333,
+          1.0
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.6666666666666666,
+        "recall_without_history": 1.0,
+        "positives_with_history": 6,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "X_host": {
+      "b1": {
+        "recall": 0.14285714285714285,
+        "recall_ci95": [
+          0.0,
+          0.3333333333333333
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.16666666666666666,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.14285714285714285,
+        "recall_ci95": [
+          0.0,
+          0.3333333333333333
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.16666666666666666,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.03333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "KL_host": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.14285714285714285,
+        "recall_ci95": [
+          0.0,
+          0.3333333333333333
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.16666666666666666,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.03333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "new_dst": {
+      "b1": {
+        "recall": 0.2857142857142857,
+        "recall_ci95": [
+          0.0,
+          0.6666666666666666
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.3333333333333333,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.7142857142857143,
+        "recall_ci95": [
+          0.3333333333333333,
+          1.0
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.6666666666666666,
+        "recall_without_history": 1.0,
+        "positives_with_history": 6,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "H_today": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.5714285714285714,
+        "recall_ci95": [
+          0.16666666666666666,
+          0.8888888888888888
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 0.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.5,
+        "recall_without_history": 1.0,
+        "positives_with_history": 6,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          69,
+          288,
+          535
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "k_dst": {
+      "b1": {
+        "recall": 0.2857142857142857,
+        "recall_ci95": [
+          0.0,
+          0.6666666666666666
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.3333333333333333,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.7142857142857143,
+        "recall_ci95": [
+          0.3333333333333333,
+          1.0
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.6666666666666666,
+        "recall_without_history": 1.0,
+        "positives_with_history": 6,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "powell": {
+      "b1": {
+        "recall": 0.2857142857142857,
+        "recall_ci95": [
+          0.0,
+          0.5714285714285714
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.3333333333333333,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.5714285714285714,
+        "recall_ci95": [
+          0.2857142857142857,
+          0.8571428571428571
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "219": 1.0,
+          "288": 1.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.6666666666666666,
+        "recall_without_history": 0.0,
+        "positives_with_history": 6,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "host_age": {
+      "b1": {
+        "recall": 0.005494505494505495,
+        "recall_ci95": [
+          0.0,
+          0.012820512820512822
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.019230769230769232
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.038461538461538464,
+        "positives_with_history": 6,
+        "precision": 0.012820512820512822,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.13113553113553114,
+        "recall_ci95": [
+          0.0,
+          0.305982905982906
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.458974358974359
+        },
+        "recall_with_history": 0.08888888888888889,
+        "recall_without_history": 0.38461538461538464,
+        "positives_with_history": 6,
+        "precision": 0.0305982905982906,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "neg_log_hist": {
+      "b1": {
+        "recall": 0.005494505494505495,
+        "recall_ci95": [
+          0.0,
+          0.012820512820512822
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.019230769230769232
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.038461538461538464,
+        "positives_with_history": 6,
+        "precision": 0.012820512820512822,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.05494505494505495,
+        "recall_ci95": [
+          0.0,
+          0.12820512820512822
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.19230769230769232
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.38461538461538464,
+        "positives_with_history": 6,
+        "precision": 0.012820512820512822,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      }
+    },
+    "new_host_k": {
+      "b1": {
+        "recall": 0.14285714285714285,
+        "recall_ci95": [
+          0.0,
+          0.3333333333333333
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 1.0,
+        "positives_with_history": 6,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.14917127071823202,
+        "recall_ci95": [
+          0.0024554941682013508,
+          0.3415183138940045
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "219": 0.0,
+          "288": 0.014732965009208104,
+          "379": 0.0,
+          "521": 0.014732965009208104,
+          "535": 0.507366482504604
+        },
+        "recall_with_history": 0.007366482504604051,
+        "recall_without_history": 1.0,
+        "positives_with_history": 6,
+        "precision": 0.03480662983425414,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.30522088353413657,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "within_day_auc": {
+      "E": 0.9273831528914709,
+      "E_ainf": 0.9268550303670451,
+      "X_host": 0.7932400316873515,
+      "KL_host": 0.5527682422321978,
+      "new_dst": 0.9657600563330693,
+      "H_today": 0.8291523633482968,
+      "k_dst": 0.9307279288795,
+      "powell": 0.8008537980811548,
+      "host_age": 0.49044978434996916,
+      "neg_log_hist": 0.6146025878003696,
+      "new_host_k": 0.42359827479975354
+    },
+    "source_names": {
+      "69": "SysClient0201",
+      "219": "SysClient0402",
+      "288": "SysClient0501",
+      "379": "SysClient0660",
+      "521": "SysClient0974",
+      "535": "DC1"
+    }
+  },
+  "secondary_day_rt": {
+    "host_days": 1630,
+    "positives": 12,
+    "sources": [
+      69,
+      138,
+      190,
+      219,
+      288,
+      379,
+      447,
+      521,
+      535
+    ],
+    "positives_per_source": {
+      "69": 1,
+      "138": 1,
+      "190": 1,
+      "219": 1,
+      "288": 3,
+      "379": 1,
+      "447": 1,
+      "521": 1,
+      "535": 2
+    },
+    "days": 3,
+    "median_host_days_per_day": 545.0,
+    "E": {
+      "b1": {
+        "recall": 0.16666666666666666,
+        "recall_ci95": [
+          0.0,
+          0.36363636363636365
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.18181818181818182,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.2222222222222222,
+          0.8
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 1.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.45454545454545453,
+        "recall_without_history": 1.0,
+        "positives_with_history": 11,
+        "precision": 0.2,
+        "sources_detected": [
+          69,
+          138,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 5,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0051",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "E_ainf": {
+      "b1": {
+        "recall": 0.16666666666666666,
+        "recall_ci95": [
+          0.0,
+          0.36363636363636365
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.18181818181818182,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.2222222222222222,
+          0.8
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 1.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.45454545454545453,
+        "recall_without_history": 1.0,
+        "positives_with_history": 11,
+        "precision": 0.2,
+        "sources_detected": [
+          69,
+          138,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 5,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0051",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "X_host": {
+      "b1": {
+        "recall": 0.08333333333333333,
+        "recall_ci95": [
+          0.0,
+          0.25
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.08333333333333333,
+        "recall_ci95": [
+          0.0,
+          0.25
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.03333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "KL_host": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.08333333333333333,
+        "recall_ci95": [
+          0.0,
+          0.25
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.09090909090909091,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.03333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "new_dst": {
+      "b1": {
+        "recall": 0.16666666666666666,
+        "recall_ci95": [
+          0.0,
+          0.36363636363636365
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.18181818181818182,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.5,
+        "recall_ci95": [
+          0.2222222222222222,
+          0.8
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 1.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.45454545454545453,
+        "recall_without_history": 1.0,
+        "positives_with_history": 11,
+        "precision": 0.2,
+        "sources_detected": [
+          69,
+          138,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 5,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0051",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "H_today": {
+      "b1": {
+        "recall": 0.0,
+        "recall_ci95": [
+          0.0,
+          0.0
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.0,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.3333333333333333,
+        "recall_ci95": [
+          0.09090909090909091,
+          0.6153846153846154
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.2727272727272727,
+        "recall_without_history": 1.0,
+        "positives_with_history": 11,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          69,
+          288,
+          535
+        ],
+        "n_sources_detected": 3,
+        "detection_delay_days": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "k_dst": {
+      "b1": {
+        "recall": 0.16666666666666666,
+        "recall_ci95": [
+          0.0,
+          0.36363636363636365
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.0
+        },
+        "recall_with_history": 0.18181818181818182,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          219,
+          288
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0402",
+          "SysClient0501"
+        ]
+      },
+      "b10": {
+        "recall": 0.4166666666666667,
+        "recall_ci95": [
+          0.1111111111111111,
+          0.7272727272727273
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 1.0
+        },
+        "recall_with_history": 0.36363636363636365,
+        "recall_without_history": 1.0,
+        "positives_with_history": 11,
+        "precision": 0.16666666666666666,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05665930831493746,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "powell": {
+      "b1": {
+        "recall": 0.16666666666666666,
+        "recall_ci95": [
+          0.0,
+          0.4166666666666667
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.18181818181818182,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.6666666666666666,
+        "sources_detected": [
+          69,
+          535
+        ],
+        "n_sources_detected": 2,
+        "detection_delay_days": [
+          0.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "SysClient0201",
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.3333333333333333,
+        "recall_ci95": [
+          0.1111111111111111,
+          0.5555555555555556
+        ],
+        "recall_per_source": {
+          "69": 1.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 1.0,
+          "288": 0.3333333333333333,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.36363636363636365,
+        "recall_without_history": 0.0,
+        "positives_with_history": 11,
+        "precision": 0.13333333333333333,
+        "sources_detected": [
+          69,
+          219,
+          288,
+          535
+        ],
+        "n_sources_detected": 4,
+        "detection_delay_days": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0007358351729212656,
+        "sources_detected_names": [
+          "SysClient0201",
+          "SysClient0402",
+          "SysClient0501",
+          "DC1"
+        ]
+      }
+    },
+    "host_age": {
+      "b1": {
+        "recall": 0.0032051282051282055,
+        "recall_ci95": [
+          0.0,
+          0.009615384615384616
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.019230769230769232
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.038461538461538464,
+        "positives_with_history": 11,
+        "precision": 0.012820512820512822,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.07793803418803419,
+        "recall_ci95": [
+          0.000641025641025641,
+          0.23044871794871793
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0057692307692307696,
+          "190": 0.0057692307692307696,
+          "219": 0.0,
+          "288": 0.0019230769230769232,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.458974358974359
+        },
+        "recall_with_history": 0.050058275058275065,
+        "recall_without_history": 0.38461538461538464,
+        "positives_with_history": 11,
+        "precision": 0.031175213675213677,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          1.0
+        ],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "neg_log_hist": {
+      "b1": {
+        "recall": 0.0032051282051282055,
+        "recall_ci95": [
+          0.0,
+          0.009615384615384616
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.019230769230769232
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.038461538461538464,
+        "positives_with_history": 11,
+        "precision": 0.012820512820512822,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      },
+      "b10": {
+        "recall": 0.032051282051282055,
+        "recall_ci95": [
+          0.0,
+          0.09615384615384616
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.19230769230769232
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 0.38461538461538464,
+        "positives_with_history": 11,
+        "precision": 0.012820512820512822,
+        "sources_detected": [],
+        "n_sources_detected": 0,
+        "detection_delay_days": [],
+        "event_cover_after_alert_day": 0.0,
+        "sources_detected_names": []
+      }
+    },
+    "new_host_k": {
+      "b1": {
+        "recall": 0.08333333333333333,
+        "recall_ci95": [
+          0.0,
+          0.25
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.0,
+          "190": 0.0,
+          "219": 0.0,
+          "288": 0.0,
+          "379": 0.0,
+          "447": 0.0,
+          "521": 0.0,
+          "535": 0.5
+        },
+        "recall_with_history": 0.0,
+        "recall_without_history": 1.0,
+        "positives_with_history": 11,
+        "precision": 0.3333333333333333,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05592347314201619,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      },
+      "b10": {
+        "recall": 0.09252188820966,
+        "recall_ci95": [
+          0.006805525406506438,
+          0.25776269936301865
+        ],
+        "recall_per_source": {
+          "69": 0.0,
+          "138": 0.017110266159695818,
+          "190": 0.017110266159695818,
+          "219": 0.0,
+          "288": 0.01061441038963464,
+          "379": 0.0,
+          "447": 0.014732965009208104,
+          "521": 0.014732965009208104,
+          "535": 0.507366482504604
+        },
+        "recall_with_history": 0.010023878046901807,
+        "recall_without_history": 1.0,
+        "positives_with_history": 11,
+        "precision": 0.037008755283864,
+        "sources_detected": [
+          535
+        ],
+        "n_sources_detected": 1,
+        "detection_delay_days": [
+          0.0
+        ],
+        "event_cover_after_alert_day": 0.05592347314201619,
+        "sources_detected_names": [
+          "DC1"
+        ]
+      }
+    },
+    "within_day_auc": {
+      "E": 0.8102595797280593,
+      "E_ainf": 0.8259167696744952,
+      "X_host": 0.6795426452410384,
+      "KL_host": 0.5851874742480428,
+      "new_dst": 0.8606046559538525,
+      "H_today": 0.6956891223733004,
+      "k_dst": 0.796044499381953,
+      "powell": 0.6466573959620932,
+      "host_age": 0.5431860321384425,
+      "neg_log_hist": 0.573135558302431,
+      "new_host_k": 0.5072362999587969
+    },
+    "source_names": {
+      "69": "SysClient0201",
+      "138": "SysClient0051",
+      "190": "SysClient0351",
+      "219": "SysClient0402",
+      "288": "SysClient0501",
+      "379": "SysClient0660",
+      "447": "SysClient0811",
+      "521": "SysClient0974",
+      "535": "DC1"
+    }
+  },
+  "threshold_rule_hour_lm": {
+    "b10": {
+      "b": 10,
+      "window_days": 7,
+      "alerts_per_day_mean": 258.6666666666667,
+      "alerts_per_day_median": 217.0,
+      "alerts_per_day_max": 482,
+      "recall": 0.6,
+      "sources_detected": [
+        69,
+        219,
+        288,
+        535
+      ],
+      "n_sources_detected": 4
+    },
+    "b100": {
+      "b": 100,
+      "window_days": 7,
+      "alerts_per_day_mean": 438.3333333333333,
+      "alerts_per_day_median": 435.0,
+      "alerts_per_day_max": 604,
+      "recall": 0.7,
+      "sources_detected": [
+        69,
+        219,
+        288,
+        521,
+        535
+      ],
+      "n_sources_detected": 5
+    }
+  },
+  "hypotheses": {
+    "H1_E_recall10_gt_X": true,
+    "H2_E_recall10_gt_new_dst": true,
+    "H3_E_detects_half_sources_with_logs_b10": true,
+    "sources_with_logs": [
+      "SysClient0201",
+      "SysClient0402",
+      "SysClient0501",
+      "SysClient0660",
+      "SysClient0974"
+    ]
+  }
+}
